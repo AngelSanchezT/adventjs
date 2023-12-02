@@ -13,4 +13,4 @@ Solutions to the challenges proposed by @midudev on https://adventjs.dev
 
 |  #  |                                       Challenge                        | Difficulty |               Solution                  |
 | :-: | :--------------------------------------------------------------------: | :--------: | :-------------------------------------: |
-| 01  | [First gift repeated!](./2023/challenge-01)              | Easy       | [Show](./2023/challenge-01/solution.js) |
+| 01  | [First gift repeated!](./2023/challenge-01)              | Easy       | [Show](./2023/challenge-01/challenge01.js) |
