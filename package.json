@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:1": "jest -i 2023/challenge-01/challenge01.test.js",
+    "test:2": "jest -i 2023/challenge-02/challenge02.test.js",
     "test:2021:1": "jest -i 2021/challenge-01/challenge01.test.js"
   },
   "author": "",

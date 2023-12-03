@@ -1,4 +1,4 @@
-# Challenge #1: First gift repeated!
+# Challenge #1: 🎁 First gift repeated!
 
 > _Visit: [Challenge #1](https://adventjs.dev/challenges/2023/1)_
 

@@ -1,6 +1,6 @@
 const findFirstRepeated = require('./challenge01')
 
-describe('Challenge #1: Find First Repeated', () => {
+describe('Challenge #1: 🎁 First gift repeated!', () => {
 
     it('Test #01: return type | Expected: "number"', () => {
         let result = findFirstRepeated([]);
