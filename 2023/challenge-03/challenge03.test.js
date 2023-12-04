@@ -49,12 +49,45 @@ describe("Challenge #3: 😏 The naughty elf", () => {
 
     });
 
-    it("Test#07: | Expected: ''", () => {
+    it("Test#07: findNaughtyStep('abcde', 'abcde')  | Expected: ''", () => {
         const original = 'abcde'
         const modified = 'abcde'
         const result = findNaughtyStep(original, modified) // ''
 
         expect(result).toEqual('');
+    });
+
+    it("Test#08: findNaughtyStep('', 'abcde')  | Expected: 'abcde'", () => {
+        const original = ''
+        const modified = 'abcde'
+        const result = findNaughtyStep(original, modified) // ''
+
+        expect(result).toEqual('abcde');
+    });
+
+    it("Test#08: findNaughtyStep('abcde', '')  | Expected: 'abcde'", () => {
+        const original = 'abcde'
+        const modified = ''
+        const result = findNaughtyStep(original, modified) // ''
+
+        expect(result).toEqual('abcde');
+    });
+
+    it("Test#09: findNaughtyStep('', '')  | Expected: ''", () => {
+        expect(findNaughtyStep('', '')).toEqual('');
+    });
+
+
+    it("Test#10: findNaughtyStep('abc', 'abc')  | Expected: ''", () => {
+        expect(findNaughtyStep('abc', 'abc')).toEqual('');
+    });
+
+    it("Test#11: findNaughtyStep('abcd', 'abecd')  | Expected: 'e'", () => {
+        expect(findNaughtyStep('abcd', 'abecd')).toEqual('e');
+    });
+
+    it("Test#12: findNaughtyStep('abc', 'xyzabc')  | Expected: 'xyz'", () => {
+        expect(findNaughtyStep('abc', 'xyzabc')).toEqual('xyz');
     });
 
 });
