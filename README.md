@@ -17,6 +17,7 @@ The programming challenges:
 | :-: | :--------------------------------------------------------------------: | :--------: | :-------------------------------------: |
 | 01  | [🎁 First gift repeated!](./2023/challenge-01)              | Easy       | [Solution](./2023/challenge-01/challenge01.js) |
 | 02  | [🏭 We start the factory](./2023/challenge-02)              | Easy       | [Solution](./2023/challenge-02/challenge02.js) |
+| 03  | [😏 The naughty elf](./2023/challenge-03)              | Easy       | [Solution](./2023/challenge-03/challenge03.js) |
 
 ## 🎯 Challenges 2022
 
