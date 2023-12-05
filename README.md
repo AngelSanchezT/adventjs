@@ -36,5 +36,6 @@ The programming challenges:
 |  #  |                                       Challenge                        | Difficulty |               Solution                     |
 | :-: | :--------------------------------------------------------------------: | :--------: | :----------------------------------------: |
 | 01  | [Contando ovejas para domir!](./2021/challenge-01)                     | Easy       | [Solution](./2021/challenge-01/challenge01.js) |
+| 02  | [¡Ayuda al elfo a listar los regalos!](./2021/challenge-02)                     | Easy       | [Solution](./2021/challenge-02/challenge02.js) |
 
 
