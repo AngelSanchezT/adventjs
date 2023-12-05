@@ -1,5 +1,12 @@
 function listGifts(letter) {
-    // ¡Tú puedes!
+    
+    const words = letter.split(' ');
+
+    for(let word of words) {
+        if(word && word.trim().length > 0) {
+            
+        }
+    }
     return {}
 }
 
