@@ -9,7 +9,7 @@ Solutions to the challenges proposed by @midudev on https://adventjs.dev
 
 <!-- TODO: Botones de los años 2021, 2022 y 2023 -->
 
-## 🎯 Challenges 2023
+## 🎯 Challenges 2023.
 
 The programming challenges:
 
@@ -20,7 +20,7 @@ The programming challenges:
 | 03  | [😏 The naughty elf](./2023/challenge-03)              | Easy       | [Solution](./2023/challenge-03/challenge03.js) |
 | 04  | [😵‍💫 Turn the parentheses around](./2023/challenge-04)              | Easy       | [Solution](./2023/challenge-04/challenge04.js) |
 
-## 🎯 Challenges 2022
+## 🎯 Challenges 2022.
 
 The programming challenges:
 
@@ -29,7 +29,7 @@ The programming challenges:
 | 01  | [¡Automatizando envolver regalos de navidad!](./2022/challenge-01) | Easy       | [Solution](./2022/challenge-01/challenge01.js) |
 
 
-## 🎯 Challenges 2021
+## 🎯 Challenges 2021.
 
 The programming challenges:
 
