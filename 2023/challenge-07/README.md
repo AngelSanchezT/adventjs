@@ -1,6 +1,6 @@
 # Challenge #7: 📦 The 3D boxes
 
->_Visit: [Challenge #7: 🦌 The reindeer on trial](https://adventjs.dev/challenges/2023/7)_
+>_Visit: [Challenge #7: 📦 The 3D boxes](https://adventjs.dev/challenges/2023/7)_
 
 Santa is experimenting with new gift designs and **he needs your help to visualize them in 3D.**
 
