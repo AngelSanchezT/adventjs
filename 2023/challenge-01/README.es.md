@@ -1,14 +1,6 @@
 # Reto #1: 🎁 ¡Primer regalo repetido! 
 
-<span style="color: rgb(190 242 100)">Fácil</span>.
-
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
-$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
-
-
-
+$${\color{lightgreen}Fácil}$$
 
 > _Visit: [Reto #1](https://adventjs.dev/es/challenges/2023/1)_
 
