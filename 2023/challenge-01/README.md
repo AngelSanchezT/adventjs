@@ -1,5 +1,7 @@
 # Challenge #1: 🎁 First gift repeated!
 
+$${\color{lightgreen}Easy}$$
+
 > _Visit: [Challenge #1](https://adventjs.dev/challenges/2023/1)_
 
 In the toy factory of the North Pole, each toy has a unique identification number.
