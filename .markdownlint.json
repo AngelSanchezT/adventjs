@@ -1,0 +1,13 @@
+{
+    "no-inline-html": {
+        "allowed_elements": [
+            "details",
+            "p",
+            "img",
+            "br",
+            "em",
+            "div",
+            "h3"
+        ]
+    }
+}

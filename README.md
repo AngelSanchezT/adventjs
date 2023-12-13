@@ -1,9 +1,9 @@
 # AdventJS 🎄🎅
 
-Solutions to the challenges proposed by @midudev on https://adventjs.dev
+Solutions to the challenges proposed by @midudev on <https://adventjs.dev>
 
 <div align="center">
-    <img src="./assets/javascript_logo.svg" width="150px" height="150px">
+    <img alt="javascript_logo" src="./assets/javascript_logo.svg" width="150px" height="150px">
     <h3>Every day, a new programming challenge and a giveaway!</h3>
 </div>
 
