@@ -2,6 +2,8 @@
 
 >_Visit: [Challenge #4: 😵‍💫 Turn the parentheses around](https://adventjs.dev/challenges/2023/4)_
 
+$${\color{orange}Medium}$$
+
 In 🎅 Santa's workshop, **some Christmas messages have been written in a peculiar way**: the words within the brackets must be read backwards.
 
 **Santa needs these messages to be correctly formatted**. Your task is to write a function that takes a string and reverses the characters within each pair of parentheses, removing the parentheses as well.

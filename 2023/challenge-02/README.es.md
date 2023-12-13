@@ -2,6 +2,8 @@
 
 > _Visit: [Reto #2](https://adventjs.dev/es/challenges/2023/2)_
 
+$${\color{lightgreen}Fácil}$$
+
 En el taller de Santa, los elfos tienen una lista de regalos que desean fabricar
  y un conjunto limitado de materiales.
 
