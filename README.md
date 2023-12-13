@@ -9,6 +9,15 @@ Solutions to the challenges proposed by @midudev on https://adventjs.dev
 
 <!-- TODO: Botones de los años 2021, 2022 y 2023 -->
 
+[![Español](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/20px-Flag_of_Spain.svg.png)](es/README.md)
+
+[![Inglés](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/20px-Flag_of_the_United_Kingdom.svg.png)](en/README.md)
+
+
+
+
+
+
 ## 🎯 Challenges 2023.
 
 The programming challenges:
