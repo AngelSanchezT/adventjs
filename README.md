@@ -15,7 +15,7 @@ The programming challenges:
 
 |  #  |                                       Challenge                        |  ES  | Difficulty |               Solution                  |
 | :-: | :--------------------------------------------------------------------: | :--: | :--------: | :-------------------------------------: |
-| 01  | [🎁 First gift repeated!](./2023/challenge-01) | [![Español](./assets/flag_es.png)](./2023/challenge-01/README.es.md) | <span style="color: green;">Easy</span>  | [Solution](./2023/challenge-01/challenge01.js) |
+| 01  | [🎁 First gift repeated!](./2023/challenge-01) | [![Español](./assets/flag_es.png)](./2023/challenge-01/README.es.md) | <span style="background-color: green; color: white;">Texto en verde</span>  | [Solution](./2023/challenge-01/challenge01.js) |
 | 02  | [🏭 We start the factory](./2023/challenge-02) | [![Español](./assets/flag_es.png)](./2023/challenge-02/README.es.md) | Easy | [Solution](./2023/challenge-02/challenge02.js) |
 | 03  | [😏 The naughty elf](./2023/challenge-03) | [![Español](./assets/flag_es.png)](./2023/challenge-03/README.es.md) | Easy | [Solution](./2023/challenge-03/challenge03.js) |
 | 04  | [😵‍💫 Turn the parentheses around](./2023/challenge-04) | [![Español](./assets/flag_es.png)](./2023/challenge-04/README.es.md) | Easy | [Solution](./2023/challenge-04/challenge04.js) |
