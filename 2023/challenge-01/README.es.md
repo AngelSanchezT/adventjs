@@ -1,4 +1,9 @@
-# Reto #1: 🎁 ¡Primer regalo repetido!
+# Reto #1: 🎁 ¡Primer regalo repetido! 
+
+<span style="color: rgb(190 242 100)">Fácil</span>.
+
+
+
 
 > _Visit: [Reto #1](https://adventjs.dev/es/challenges/2023/1)_
 
