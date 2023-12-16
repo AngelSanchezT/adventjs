@@ -1,5 +1,7 @@
 # Reto #5: 🛷 El CyberTruck de Santa
 
+$${\color{orange}Medio}$$
+
 > _Visita: [Reto #5: 🛷 El CyberTruck de Santa](https://adventjs.dev/es/challenges/2023/5)_
 
 Santa 🎅 está probando su nuevo trineo eléctrico, el _CyberReindeer_, en una

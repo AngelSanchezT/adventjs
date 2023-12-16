@@ -22,6 +22,9 @@ describe("Challenge #5: 🛷 Santa's CyberTruck", () => {
             "...*...S.."
         ];
 
+        console.table(result);
+        console.table(expected);
+
         expect(result).toEqual(expected);
     });
 
