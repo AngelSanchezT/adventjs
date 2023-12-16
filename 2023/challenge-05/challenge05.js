@@ -9,11 +9,12 @@ function cyberReindeer(road, time) {
   let indexSled = 0;
   result.push(road);
   road = road.replace(_SANTA_SLED_, _ROAD_);
+  let roadArray = road.split('');
 
   for (let i = 2; i <= time; i++) {
     const nextEspace = road[indexSled + 1];
-
-    let nextRoad = road.split('');
+    
+    let nextRoad = roadArray.slice();
     
     if (nextEspace !== _CLOSED_BARRIER_) {
       nextRoad[indexSled + 1] = _SANTA_SLED_;
@@ -25,9 +26,8 @@ function cyberReindeer(road, time) {
     result.push(nextRoad.join(''));
 
     if (i === 5) {
-      
       road = road.replace(regex, _OPEN_BARRIER_);
-      
+      roadArray = road.split('');
     }
 
     
