@@ -1,8 +1,11 @@
 # Challenge #5: 🛷 Santa's CyberTruck
 
+$${\color{orange}Medium}$$
+
 >_Visit: [Challenge #5: 🛷 Santa's CyberTruck](https://adventjs.dev/challenges/2023/5)_
 
-Santa 🎅 is testing his new electric sled, the CyberReindeer, on a North Pole road. The road is represented by a string of characters, where:
+Santa 🎅 is testing his new electric sled, the CyberReindeer, on a North Pole road.
+The road is represented by a string of characters, where:
 
 - `.` = Road
 - `S` = Santa's Sled
@@ -11,11 +14,15 @@ Santa 🎅 is testing his new electric sled, the CyberReindeer, on a North Pole 
 
 Example of a road: `S...|....|.....`
 
-Each unit of time, **the sled moves one position to the right.** If it encounters a closed barrier, it stops until the barrier opens. If it is open, it goes through directly.
+Each unit of time, **the sled moves one position to the right.** If it encounters
+a closed barrier, it stops until the barrier opens. If it is open, it goes
+through directly.
 
 **All barriers start closed,** but after 5 units of time, they all open **forever**.
 
-**Create a function that simulates the sled's movement** for a given time and **returns an array** of strings representing the state of the road at each unit of time:
+**Create a function that simulates the sled's movement** for a given time and
+**returns an array** of strings representing the state of the road at each unit
+of time:
 
 ```javascript
 const road = 'S..|...|..'
@@ -37,8 +44,10 @@ const result = cyberReindeer(road, time)
 ]
 */
 ```
+
 The result is an **array where each element shows the road at each unit of time.**
 
-Take into account that **if the sled is in the same position as a barrier,** then it takes its place in the array.
+Take into account that **if the sled is in the same position as a barrier,**
+then it takes its place in the array.
 
 The elves were **inspired by this Code Wars challenge.**
