@@ -1,5 +1,7 @@
 # Challenge #14: 🚨 Avoid the alarm
 
+$${\color{orange}Medium}$$
+
 > _Visit [Challenge #14: 🚨 Avoid the alarm](https://adventjs.dev/en/challenges/2023/14)_
 
 With the rise of social media, Santa Claus is **terrified that children might wake
