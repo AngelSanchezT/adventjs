@@ -8,7 +8,8 @@ The elves are very busy in Santa Claus' workshop organizing gifts 🎁 for Chris
 Eve 🎄.
 
 The input format is special, as it indicates the number of gifts and the type of
-gift with letters from `a` to `z`. For example, `'66a11b'` means 66 `a` gifts and 11 `b` gifts.
+gift with letters from `a` to `z`. For example, `'66a11b'` means 66 `a` gifts
+and 11 `b` gifts.
 
 The elves have a **special system** for organizing the gifts:
 
