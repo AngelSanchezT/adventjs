@@ -1,5 +1,7 @@
 # Challenge #10: 🎄 Create your own Christmas tree
 
+$${\color{lightgreen}Easy}$$
+
 >_Visit: [Challenge #10: 🎄 Create your own Christmas tree](https://adventjs.dev/challenges/2023/10)_
 
 What an idea __Sam Elfman__ has had! He wants to offer a service that creates a **customized Christmas tree** 🎄 in a matter of seconds.
