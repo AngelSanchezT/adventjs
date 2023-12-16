@@ -11,6 +11,10 @@ Solutions to the challenges proposed by @midudev on <https://adventjs.dev>
 
 ## 🎯 Challenges 2023
 
+<div align="center">
+    <img alt="position" src="./assets/points.jpg" width="552px" height="36px">
+</div>
+
 The programming challenges:
 
 |  #  |                                       Challenge                        |  ES  | Difficulty |               Solution                  |
@@ -19,6 +23,7 @@ The programming challenges:
 | 02  | [🏭 We start the factory](./2023/challenge-02) | [![Español](./assets/flag_es.png)](./2023/challenge-02/README.es.md) | Easy | [Solution](./2023/challenge-02/challenge02.js) |
 | 03  | [😏 The naughty elf](./2023/challenge-03) | [![Español](./assets/flag_es.png)](./2023/challenge-03/README.es.md) | Easy | [Solution](./2023/challenge-03/challenge03.js) |
 | 04  | [😵‍💫 Turn the parentheses around](./2023/challenge-04) | [![Español](./assets/flag_es.png)](./2023/challenge-04/README.es.md) | Easy | [Solution](./2023/challenge-04/challenge04.js) |
+| 05  | [🛷 Santa's CyberTruck](./2023/challenge-05) | [![Español](./assets/flag_es.png)](./2023/challenge-05/README.es.md) | Easy | [Solution](./2023/challenge-05/challenge05.js) |
 
 ## 🎯 Challenges 2022
 
