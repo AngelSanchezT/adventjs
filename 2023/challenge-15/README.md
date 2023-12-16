@@ -1,5 +1,7 @@
 # Challenge #15: ↔️ Autonomous robot
 
+$${\color{orange}Medium}$$
+
 > Visit [Challenge #15: ↔️ Autonomous robot](https://adventjs.dev/en/challenges/2023/15)
 
 We are programming some **robots** called giftbot 🤖🎁 that autonomously navigate
