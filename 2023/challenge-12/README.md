@@ -1,5 +1,7 @@
 # Challenge #12: 📸 Is it a valid copy?
 
+$${\color{orange}Medium}$$
+
 >_Visit: [Challenge #12: 📸 Is it a valid copy?](https://adventjs.dev/challenges/2023/12)_
 
 At the North Pole, **they still use paper photocopiers.** The elves use them to
