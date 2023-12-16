@@ -1,5 +1,7 @@
 # Challenge #11: 📖 The studious elves
 
+$${\color{orange}Medium}$$
+
 >_Visit: [Challenge #11: 🏬 Sorting the warehouse](https://adventjs.dev/challenges/2023/11)_
 
 In Santa's workshop, the elves love puzzles 🧠. This year, they have created a
