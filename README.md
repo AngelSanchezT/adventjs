@@ -12,7 +12,7 @@ Solutions to the challenges proposed by @midudev on <https://adventjs.dev>
 ## 🎯 Challenges 2023
 
 <div align="center">
-    <img alt="position" src="./assets/points.jpg" width="552px" height="36px">
+    <img alt="position" src="./assets/points.jpg">
 </div>
 
 The programming challenges:
