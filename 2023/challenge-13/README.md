@@ -1,5 +1,7 @@
 # Challenge #13: ⌚️ Calculating the time
 
+$${\color{lightgreen}Easy}$$
+
 > _Visit: [Challenge #13: ⌚️ Calculating the time](https://adventjs.dev/challenges/2023/13)
 
 The elves are preparing for **Christmas Eve** and they need your help to determine
