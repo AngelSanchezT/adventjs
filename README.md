@@ -26,6 +26,7 @@ The programming challenges:
 | 05  | [🛷 Santa's CyberTruck](./2023/challenge-05) | [![Español](./assets/flag_es.png)](./2023/challenge-05/README.es.md) | Easy | [Solution](./2023/challenge-05/challenge05.js) |
 | 06  | [🦌 The reindeer on trial](./2023/challenge-06) | [![Español](./assets/flag_es.png)](./2023/challenge-06/README.es.md) | Easy | [Solution](./2023/challenge-06/challenge06.js) |
 | 07  | [📦 The 3D boxes](./2023/challenge-07) | [![Español](./assets/flag_es.png)](./2023/challenge-07/README.es.md) | Easy | [Solution](./2023/challenge-07/challenge07.js) |
+| 08  | [🏬 Sorting the warehouse](./2023/challenge-08) | [![Español](./assets/flag_es.png)](./2023/challenge-08/README.es.md) | Easy | [Solution](./2023/challenge-08/challenge08.js) |
 
 ## 🎯 Challenges 2022
 

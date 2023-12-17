@@ -2,7 +2,7 @@ const organizeGifts = require('./challenge08');
 
 describe("Challenge #8: 🏬 Sorting the warehouse", () => {
     it("Test #01: return type | Expected: 'function'", () => {
-
+        expect(typeof organizeGifts).toEqual('function');
     });
 
     it('Test #02: organizeGifts("76a11b")', () => {
