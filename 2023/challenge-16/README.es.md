@@ -8,8 +8,8 @@ Ayer viernes alguien hizo despliegue a producción y se rompió la aplicación d
 montaje de árboles de Navidad. Nos han pedido que lo arreglemos lo antes posible.
 
 El problema es que el formato de los árboles ha cambiado. **Es un array de números…**
-**¡pero debería ser un objeto!** Por ejemplo el árbol: [3, 1, 0, 8, 12, null, 1] se
-ve así:
+**¡pero debería ser un objeto!** Por ejemplo el árbol: `[3, 1, 0, 8, 12, null, 1]`
+se ve así:
 
 ```javascript
 //        3
