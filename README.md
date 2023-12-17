@@ -27,6 +27,7 @@ The programming challenges:
 | 06  | [🦌 The reindeer on trial](./2023/challenge-06) | [![Español](./assets/flag_es.png)](./2023/challenge-06/README.es.md) | Easy | [Solution](./2023/challenge-06/challenge06.js) |
 | 07  | [📦 The 3D boxes](./2023/challenge-07) | [![Español](./assets/flag_es.png)](./2023/challenge-07/README.es.md) | Easy | [Solution](./2023/challenge-07/challenge07.js) |
 | 08  | [🏬 Sorting the warehouse](./2023/challenge-08) | [![Español](./assets/flag_es.png)](./2023/challenge-08/README.es.md) | Easy | [Solution](./2023/challenge-08/challenge08.js) |
+| 09  | [🚦 Switch the lights](./2023/challenge-09) | [![Español](./assets/flag_es.png)](./2023/challenge-09/README.es.md) | Easy | [Solution](./2023/challenge-09/challenge09.js) |
 
 ## 🎯 Challenges 2022
 

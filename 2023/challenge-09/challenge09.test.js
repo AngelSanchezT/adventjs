@@ -25,7 +25,7 @@ describe("Challenge #9: 🚦 Switch the lights", () => {
 
     it("Test #04: adjustLights(['🔴', '🔴', '🔴']) | Expected -> 1 (you change the second light to 🟢)", () => {
         const result = adjustLights(['🔴', '🔴', '🔴']);
-        const expected = 0; // -> 1 (you change the second light to 🟢)
+        const expected = 1; // -> 1 (you change the second light to 🟢)
 
         expect(result).toEqual(expected);
     });
