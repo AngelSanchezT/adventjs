@@ -3,7 +3,7 @@ const drawGift = require('./challenge07');
 describe("Challenge #7: 📦 The 3D boxes", () => {
 
     it("Test #01: return type | Expected: function ", () => {
-
+        expect(typeof drawGift).toEqual('function');
     });
 
     it('Test #02: drawGift(4, "+")', () => {
