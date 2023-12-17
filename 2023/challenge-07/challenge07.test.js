@@ -8,7 +8,7 @@ describe("Challenge #7: 📦 The 3D boxes", () => {
 
     it('Test #02: drawGift(4, "+")', () => {
         const result = drawGift(4, "+");
-        const expected = "   ####\n  #++##\n #++#+#\n####++#\n#++#+#\n#++##\n####";
+        const expected = "   ####\n  #++##\n #++#+#\n####++#\n#++#+#\n#++##\n####\n";
 
         expect(result).toEqual(expected);
     });
