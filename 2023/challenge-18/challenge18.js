@@ -1,0 +1,3 @@
+function drawClock(time) {
+    return []
+}
