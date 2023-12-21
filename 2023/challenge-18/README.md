@@ -14,8 +14,8 @@ The clock screen has 7 rows and 17 columns, and each digit of the time takes
 up 7 rows and 3 columns. The digits are composed of asterisks (*) and blank
 spaces (). There is an empty column between each digit.
 
-**The colon separating hours and minutes** is drawn using two asterisks `(*)` and is
-always placed in the same position, in rows 2 and 4, in column 9, respectively
+**The colon separating hours and minutes** is drawn using two asterisks `(*)` and
+is always placed in the same position, in rows 2 and 4, in column 9, respectively
 (note: row and column indexing starts at 0).
 
 For example, if the function receives `01:30`, it should return:
