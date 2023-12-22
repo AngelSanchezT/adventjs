@@ -30,6 +30,7 @@ The programming challenges:
 | 07  | [📦 The 3D boxes](./2023/challenge-07) | [![Español](./assets/flag_es.png)](./2023/challenge-07/README.es.md) | Easy | [Solution](./2023/challenge-07/challenge07.js) |
 | 08  | [🏬 Sorting the warehouse](./2023/challenge-08) | [![Español](./assets/flag_es.png)](./2023/challenge-08/README.es.md) | Easy | [Solution](./2023/challenge-08/challenge08.js) |
 | 09  | [🚦 Switch the lights](./2023/challenge-09) | [![Español](./assets/flag_es.png)](./2023/challenge-09/README.es.md) | Easy | [Solution](./2023/challenge-09/challenge09.js) |
+| 10  | [🎄 Create your own Christmas tree](./2023/challenge-10) | [![Español](./assets/flag_es.png)](./2023/challenge-10/README.es.md) | Easy | [Solution](./2023/challenge-10/challenge10.js) |
 
 ## 🎯 Challenges 2022
 
