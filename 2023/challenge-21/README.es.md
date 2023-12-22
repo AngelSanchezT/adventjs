@@ -31,4 +31,4 @@ Ten en cuenta que si hay más de un patrón equilibrado, **debes devolver el má
 **y el primero que encuentres de izquierda a derecha.**
 
 Dicen que si encuentran el patrón, podrán enviar un mensaje de vuelta a Marte 🚀.
-Parece ser que tienen que enviarlos a https://mars.codes.
+Parece ser que tienen que enviarlos a <https://mars.codes>.
