@@ -2,7 +2,7 @@
 
 $${\color{lightgreen}Fácil}$$
 
-¡Vaya idea ha tenido Sam Elfman! Quiere ofrecer un servicio que te crea un **árbol**
+¡Vaya idea ha tenido _Sam Elfman!_ Quiere ofrecer un servicio que te crea un **árbol**
 **de Navidad 🎄 personalizado** en cuestión de segundos.
 
 Para crearlo nos pasan una **cadena de caracteres para formar el árbol** y
