@@ -1,0 +1,3 @@
+function findBalancedSegment(message) {
+  return [];
+}
