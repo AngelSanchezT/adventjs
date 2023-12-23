@@ -1,0 +1,3 @@
+function organizeChristmasDinner(dishes) {
+    return []
+}
