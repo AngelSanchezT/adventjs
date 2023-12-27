@@ -2,6 +2,8 @@
 
 $${\color{orange}Medio}$$
 
+> _Visita: [Reto #24: 🪜 Brincos en la escalera](https://adventjs.dev/es/challenges/2023/24)_
+
 En la aldea de Santa, hay una escalera mágica que lleva a la fábrica
 de juguetes 🧸. Los elfos, siempre buscando hacer ejercicio y divertirse 🏃‍♂️,
 deciden saltar los peldaños de la escalera.
