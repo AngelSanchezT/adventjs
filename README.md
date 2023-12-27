@@ -19,18 +19,19 @@
 
 The programming challenges:
 
-|  #  |                                       Challenge                        |  ES  | Difficulty |               Solution                  |
-| :-: | :--------------------------------------------------------------------: | :--: | :--------: | :-------------------------------------: |
-| 01  | [🎁 First gift repeated!](./2023/challenge-01) | [![Español](./assets/flag_es.png)](./2023/challenge-01/README.es.md) | Easy  | [Solution](./2023/challenge-01/challenge01.js) |
-| 02  | [🏭 We start the factory](./2023/challenge-02) | [![Español](./assets/flag_es.png)](./2023/challenge-02/README.es.md) | Easy | [Solution](./2023/challenge-02/challenge02.js) |
-| 03  | [😏 The naughty elf](./2023/challenge-03) | [![Español](./assets/flag_es.png)](./2023/challenge-03/README.es.md) | Easy | [Solution](./2023/challenge-03/challenge03.js) |
-| 04  | [😵‍💫 Turn the parentheses around](./2023/challenge-04) | [![Español](./assets/flag_es.png)](./2023/challenge-04/README.es.md) | Easy | [Solution](./2023/challenge-04/challenge04.js) |
-| 05  | [🛷 Santa's CyberTruck](./2023/challenge-05) | [![Español](./assets/flag_es.png)](./2023/challenge-05/README.es.md) | Easy | [Solution](./2023/challenge-05/challenge05.js) |
-| 06  | [🦌 The reindeer on trial](./2023/challenge-06) | [![Español](./assets/flag_es.png)](./2023/challenge-06/README.es.md) | Easy | [Solution](./2023/challenge-06/challenge06.js) |
-| 07  | [📦 The 3D boxes](./2023/challenge-07) | [![Español](./assets/flag_es.png)](./2023/challenge-07/README.es.md) | Easy | [Solution](./2023/challenge-07/challenge07.js) |
-| 08  | [🏬 Sorting the warehouse](./2023/challenge-08) | [![Español](./assets/flag_es.png)](./2023/challenge-08/README.es.md) | Easy | [Solution](./2023/challenge-08/challenge08.js) |
-| 09  | [🚦 Switch the lights](./2023/challenge-09) | [![Español](./assets/flag_es.png)](./2023/challenge-09/README.es.md) | Easy | [Solution](./2023/challenge-09/challenge09.js) |
-| 10  | [🎄 Create your own Christmas tree](./2023/challenge-10) | [![Español](./assets/flag_es.png)](./2023/challenge-10/README.es.md) | Easy | [Solution](./2023/challenge-10/challenge10.js) |
+|  #  |                                       Challenge                        |  ES  | Difficulty |               Solution                  |   Points   |
+| :-: | :--------------------------------------------------------------------: | :--: | :--------: | :-------------------------------------: | :--------: |
+| 01  | [🎁 First gift repeated!](./2023/challenge-01) | [![Español](./assets/flag_es.png)](./2023/challenge-01/README.es.md) | Easy  | [Solution](./2023/challenge-01/challenge01.js) | 260 |
+| 02  | [🏭 We start the factory](./2023/challenge-02) | [![Español](./assets/flag_es.png)](./2023/challenge-02/README.es.md) | Easy | [Solution](./2023/challenge-02/challenge02.js) | 280 |
+| 03  | [😏 The naughty elf](./2023/challenge-03) | [![Español](./assets/flag_es.png)](./2023/challenge-03/README.es.md) | Easy | [Solution](./2023/challenge-03/challenge03.js) | 240 |
+| 04  | [😵‍💫 Turn the parentheses around](./2023/challenge-04) | [![Español](./assets/flag_es.png)](./2023/challenge-04/README.es.md) | Medium | [Solution](./2023/challenge-04/challenge04.js) | 270 |
+| 05  | [🛷 Santa's CyberTruck](./2023/challenge-05) | [![Español](./assets/flag_es.png)](./2023/challenge-05/README.es.md) | Medium | [Solution](./2023/challenge-05/challenge05.js) | 160 |
+| 06  | [🦌 The reindeer on trial](./2023/challenge-06) | [![Español](./assets/flag_es.png)](./2023/challenge-06/README.es.md) | Easy | [Solution](./2023/challenge-06/challenge06.js) | 290 |
+| 07  | [📦 The 3D boxes](./2023/challenge-07) | [![Español](./assets/flag_es.png)](./2023/challenge-07/README.es.md) | Easy | [Solution](./2023/challenge-07/challenge07.js) | 270 |
+| 08  | [🏬 Sorting the warehouse](./2023/challenge-08) | [![Español](./assets/flag_es.png)](./2023/challenge-08/README.es.md) | Medium | [Solution](./2023/challenge-08/challenge08.js) | 270 |
+| 09  | [🚦 Switch the lights](./2023/challenge-09) | [![Español](./assets/flag_es.png)](./2023/challenge-09/README.es.md) | Easy | [Solution](./2023/challenge-09/challenge09.js) | 300 |
+| 10  | [🎄 Create your own Christmas tree](./2023/challenge-10) | [![Español](./assets/flag_es.png)](./2023/challenge-10/README.es.md) | Easy | [Solution](./2023/challenge-10/challenge10.js) | 180 |
+| 11  | [📖 The studious elves](./2023/challenge-11) | [![Español](./assets/flag_es.png)](./2023/challenge-11/README.es.md) | Medium | [Solution](./2023/challenge-11/challenge11.js) | 30 |
 
 ## 🎯 Challenges 2022
 
