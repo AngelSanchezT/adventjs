@@ -1,69 +1,56 @@
+const calculateTime = require('./challenge13')
 
-/*
+describe("Challenge #13: ⌚️ Calculating the time", () => {
+    it("Test #01 : return type | Expected: 'string'", () => {
+        expect(typeof calculateTime(['00:10:00', '01:00:00', '03:30:00'])).toEqual("string");
+    });
 
-Test #01
-Test: return type
+    it("Test #02 calculateTime(['00:10:00', '01:00:00', '03:30:00']) | Expected: '-02:20:00' ", () => {
+        const result = calculateTime(['00:10:00', '01:00:00', '03:30:00']);
+        const expected = "-02:20:00";
 
-Expected:
-"string"
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-"string"
-Test #02
-Test: calculateTime(['00:10:00', '01:00:00', '03:30:00'])
+    it("Test #03 calculateTime(['01:00:00', '05:00:00', '00:30:00']) | Expected: '-00:30:00' ", () => {
+        const result = calculateTime(['01:00:00', '05:00:00', '00:30:00']);
+        const expected = "-00:30:00";
 
-Expected:
-"-02:20:00"
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-"00:00:00"
-Test #03
-Test: calculateTime(['01:00:00', '05:00:00', '00:30:00'])
+    it("Test #04 calculateTime(['02:00:00', '05:00:00', '00:30:00']) | Expected: '00:30:00' ", () => {
+        const result = calculateTime(['02:00:00', '05:00:00', '00:30:00']);
+        const expected = "00:30:00";
 
-Expected:
-"-00:30:00"
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-"00:00:00"
-Test #04
-Test: calculateTime(['02:00:00', '05:00:00', '00:30:00'])
+    it("Test #05 calculateTime(['00:45:00', '00:45:00', '00:00:30', '00:00:30']) | Expected: '-05:29:00' ", () => {
+        const result = calculateTime(['00:45:00', '00:45:00', '00:00:30', '00:00:30']);
+        const expected = "-05:29:00";
 
-Expected:
-"00:30:00"
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-"00:00:00"
-Test #05
-Test: calculateTime(['00:45:00', '00:45:00', '00:00:30', '00:00:30'])
+    it("Test #06 calculateTime(['02:00:00', '03:00:00', '02:00:00']) | Expected: '00:00:00' ", () => {
+        const result = calculateTime(['02:00:00', '03:00:00', '02:00:00']);
+        const expected = "00:00:00";
 
-Expected:
-"-05:29:00"
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-"00:00:00"
-Test #06
-Test #07
-Test: calculateTime(['01:01:01', '09:59:59', '01:01:01'])
+    it("Test #07 calculateTime(['01:01:01', '09:59:59', '01:01:01']) | Expected: '05:02:01' ", () => {
+        const result = calculateTime(['01:01:01', '09:59:59', '01:01:01']);
+        const expected = "05:02:01";
 
-Expected:
-"05:02:01"
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-"00:00:00"
-Test #08
-Test: calculateTime(['01:01:01', '03:59:59', '01:01:01', '00:57:58'])
+    it("Test #08 calculateTime(['01:01:01', '03:59:59', '01:01:01', '00:57:58']) | Expected: '-00:00:01' ", () => {
+        const result = calculateTime(['01:01:01', '03:59:59', '01:01:01', '00:57:58']);
+        const expected = "-00:00:01";
 
-Expected:
-"-00:00:01"
-
-Actual:
-"00:00:00"
-Test #09 secret
-Test #10 secret
-Test #11 secret
-Test #12 secret
-Test #13 secret
-Test #14 secret
-Test #15 secret
-
-*/
+        expect(result).toEqual(expected);
+    });
+});

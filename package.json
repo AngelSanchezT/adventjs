@@ -17,6 +17,7 @@
     "test:10": "jest -i 2023/challenge-10/challenge10.test.js",
     "test:11": "jest -i 2023/challenge-11/challenge11.test.js",
     "test:12": "jest -i 2023/challenge-12/challenge12.test.js",
+    "test:13": "jest -i 2023/challenge-13/challenge13.test.js",
     "test:2021:1": "jest -i 2021/challenge-01/challenge01.test.js",
     "test:2021:2": "jest -i 2021/challenge-02/challenge02.test.js"
   },
