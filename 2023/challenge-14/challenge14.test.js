@@ -1,80 +1,63 @@
-/**
+const maxGifts = require("./challenge14");
 
+describe("Challenge #14: 🚨 Avoid the alarm", () => {
+  it("Test #01: return type | Expected: 'number'", () => {
+    expect(typeof maxGifts([1, 2, 3, 1])).toEqual("number");
+  });
 
-Test #01
-Test #02
-Test: maxGifts([1, 2, 3, 1])
+  it("Test #02: maxGifts([1, 2, 3, 1]) | Expected: 4", () => {
+    const result = maxGifts([1, 2, 3, 1]);
+    const expected = 4;
 
-Expected:
-4
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-0
-Test #03
-Test: maxGifts([2, 7, 9, 3, 1])
+  it("Test #03: maxGifts([2, 7, 9, 3, 1]) | Expected: 12", () => {
+    const result = maxGifts([2, 7, 9, 3, 1]);
+    const expected = 12;
 
-Expected:
-12
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-0
-Test #04
-Test: maxGifts([0, 0, 0, 0, 1])
+  it("Test #04: maxGifts([0, 0, 0, 0, 1]) | Expected: 1", () => {
+    const result = maxGifts([0, 0, 0, 0, 1]);
+    const expected = 1;
 
-Expected:
-1
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-0
-Test #05
-Test: maxGifts([100])
+  it("Test #05: maxGifts([100]) | Expected: 100", () => {
+    const result = maxGifts([100]);
+    const expected = 100;
 
-Expected:
-100
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-0
-Test #06
-Test: maxGifts([1, 1, 1, 1])
+  it("Test #06: maxGifts([1, 1, 1, 1]) | Expected: 2", () => {
+    const result = maxGifts([1, 1, 1, 1]);
+    const expected = 2;
 
-Expected:
-2
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-0
-Test #07
-Test: maxGifts([1, 1, 1])
+  it("Test #07: maxGifts([1, 1, 1]) | Expected: 2", () => {
+    const result = maxGifts([1, 1, 1]);
+    const expected = 2;
 
-Expected:
-2
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-0
-Test #08
-Test: maxGifts([3, 4, 5])
+  it("Test #08: maxGifts([3, 4, 5]) | Expected: 8", () => {
+    const result = maxGifts([3, 4, 5]);
+    const expected = 8;
 
-Expected:
-8
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-0
-Test #09
-Test: maxGifts([99])
+  it("Test #09: maxGifts([99]) | Expected: 99", () => {
+    const result = maxGifts([99]);
+    const expected = 99;
 
-Expected:
-99
-
-Actual:
-0
-Test #10 secret
-Test #11 secret
-Test #12 secret
-Test #13 secret
-Test #14 secret
-Test #15 secret
-Test #16 secret
-Test #17 secret
-Test #18 secret
-Test #19 secret
-
- */
+    expect(result).toEqual(expected);
+  });
+});
