@@ -1,3 +1,5 @@
 function autonomousDrive(store, movements) {
-    return store
+    return store;
 }
+
+module.exports = autonomousDrive;
