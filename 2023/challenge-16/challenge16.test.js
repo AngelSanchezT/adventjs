@@ -1,62 +1,54 @@
+const transformTree = require("./challenge16");
+
+describe("Challenge #16: ❌ Friday deployment", () => {
+  it("Test #01: return type", () => {
+    expect(typeof transformTree([])).toEqual("object");
+  });
+
+  it("Test #02: transformTree([]) | Expected: null", () => {
+    const result = transformTree([]);
+    const expected = null;
+
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #03: transformTree([1]) | Expected: { 'value': 1, 'left': null, 'right': null }", () => {
+    const result = transformTree([1]);
+    const expected = { value: 1, left: null, right: null };
+
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #04: transformTree([1, 2, 3]) | Expected: { 'value': 1, 'left': { 'value': 2, 'left': null, 'right': null }, 'right': { 'value': 3, 'left': null, 'right': null } }", () => {
+    const result = transformTree([1, 2, 3]);
+    const expected = {
+      value: 1,
+      left: { value: 2, left: null, right: null },
+      right: { value: 3, left: null, right: null },
+    };
+
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #05: transformTree([1, 2, 3, 4, 5]) | Expected: { 'value': 1, 'left': { 'value': 2, 'left': { 'value': 4, 'left': null, 'right': null }, 'right': { 'value': 5, 'left': null, 'right': null } }, 'right': { 'value': 3, 'left': null, 'right': null }}", () => {
+    const result = transformTree([1, 2, 3, 4, 5]);
+    const expected = {
+      value: 1,
+      left: {
+        value: 2,
+        left: { value: 4, left: null, right: null },
+        right: { value: 5, left: null, right: null },
+      },
+      right: { value: 3, left: null, right: null },
+    };
+
+    expect(result).toEqual(expected);
+  });
+});
 
 /*
-
-Test #01
-Test: return type
-
-Expected:
-"object"
-
-Actual:
-"array"
-Test #02
-Test: transformTree([])
-
-Expected:
-null
-
-Actual:
-[]
-Test #03
-Test: transformTree([1])
-
-Expected:
-{
-  "value": 1,
-  "left": null,
-  "right": null
-}
-
-Actual:
-[
-  1
-]
-Test #04
-Test: transformTree([1, 2, 3])
-
-Expected:
-{
-  "value": 1,
-  "left": {
-    "value": 2,
-    "left": null,
-    "right": null
-  },
-  "right": {
-    "value": 3,
-    "left": null,
-    "right": null
-  }
-}
-
-Actual:
-[
-  1,
-  2,
-  3
-]
 Test #05
-Test: transformTree([1, 2, 3, 4, 5])
+Test: 
 
 Expected:
 {
