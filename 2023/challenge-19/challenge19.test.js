@@ -1,259 +1,140 @@
-/*
-Test #01
-Test: return type
+const revealSabotage = require("./challenge19");
 
-Expected:
-"array"
+describe("Challenge #19: 💣 Face the sabotage", () => {
+  it("Test #01: Return Type | Expected: array", () => {
+    expect(
+      revealSabotage([
+        ["*", " ", " ", " "],
+        [" ", " ", "*", " "],
+        [" ", " ", " ", " "],
+        ["*", " ", " ", " "],
+      ])
+    ).toEqual("object");
+  });
 
-Actual:
-"array"
-Test #02
-Test: revealSabotage([
-  ['*', ' ', ' ', ' '],
-  [' ', ' ', '*', ' '],
-  [' ', ' ', ' ', ' '],
-  ['*', ' ', ' ', ' ']
-])
+  it('Test #02: revealSabotage([["*", " ", " ", " "],[" ", " ", "*", " "],[" ", " ", " ", " "],["*", " ", " ", " "],])', () => {
+    const result = revealSabotage([
+      ["*", " ", " ", " "],
+      [" ", " ", "*", " "],
+      [" ", " ", " ", " "],
+      ["*", " ", " ", " "],
+    ]);
 
-Expected:
-[
-  [
-    "*",
-    "2",
-    "1",
-    "1"
-  ],
-  [
-    "1",
-    "2",
-    "*",
-    "1"
-  ],
-  [
-    "1",
-    "2",
-    "1",
-    "1"
-  ],
-  [
-    "*",
-    "1",
-    " ",
-    " "
-  ]
-]
+    const expected = [
+      ["*", "2", "1", "1"],
+      ["1", "2", "*", "1"],
+      ["1", "2", "1", "1"],
+      ["*", "1", " ", " "],
+    ];
 
-Actual:
-[]
-Test #03
-Test: revealSabotage([
-  [' ', ' ', ' '],
-  [' ', '*', ' '],
-  [' ', ' ', ' ']
-])
+    expect(result).toEqual(expected);
+  });
 
-Expected:
-[
-  [
-    "1",
-    "1",
-    "1"
-  ],
-  [
-    "1",
-    "*",
-    "1"
-  ],
-  [
-    "1",
-    "1",
-    "1"
-  ]
-]
+  it("Test #03: revealSabotage([[' ', ' ', ' '],[' ', '*', ' '],[' ', ' ', ' ']])", () => {
+    const result = revealSabotage([
+      [" ", " ", " "],
+      [" ", "*", " "],
+      [" ", " ", " "],
+    ]);
 
-Actual:
-[]
-Test #04
-Test: revealSabotage([
-  ['*', ' ', ' '],
-  [' ', '*', ' '],
-  [' ', ' ', '*']
-])
+    const expected = [
+      ["1", "1", "1"],
+      ["1", "*", "1"],
+      ["1", "1", "1"],
+    ];
 
-Expected:
-[
-  [
-    "*",
-    "2",
-    "1"
-  ],
-  [
-    "2",
-    "*",
-    "2"
-  ],
-  [
-    "1",
-    "2",
-    "*"
-  ]
-]
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #05
-Test: revealSabotage([
-  ['*', ' ', ' '],
-  [' ', ' ', ' '],
-  [' ', ' ', ' ']
-])
+  it("Test #04: revealSabotage([['*', ' ', ' '],[' ', '*', ' '],[' ', ' ', '*']])", () => {
+    const result = revealSabotage([
+      ["*", " ", " "],
+      [" ", "*", " "],
+      [" ", " ", "*"],
+    ]);
 
-Expected:
-[
-  [
-    "*",
-    "1",
-    " "
-  ],
-  [
-    "1",
-    "1",
-    " "
-  ],
-  [
-    " ",
-    " ",
-    " "
-  ]
-]
+    const expected = [
+      ["*", "2", "1"],
+      ["2", "*", "2"],
+      ["1", "2", "*"],
+    ];
 
-Actual:
-[]
-Test #06
-Test: revealSabotage([
-  ['*', '*', '*'],
-  ['*', ' ', '*'],
-  ['*', '*', '*']
-])
+    expect(result).toEqual(expected);
+  });
 
-Expected:
-[
-  [
-    "*",
-    "*",
-    "*"
-  ],
-  [
-    "*",
-    "8",
-    "*"
-  ],
-  [
-    "*",
-    "*",
-    "*"
-  ]
-]
+  it("Test #05: revealSabotage([['*', ' ', ' '],[' ', ' ', ' '],[' ', ' ', ' ']])", () => {
+    const result = revealSabotage([
+      ["*", " ", " "],
+      [" ", " ", " "],
+      [" ", " ", " "],
+    ]);
 
-Actual:
-[]
-Test #07
-Test: revealSabotage([
-  ['*', ' ', '*']
-])
+    const expected = [
+      ["*", "1", " "],
+      ["1", "1", " "],
+      [" ", " ", " "],
+    ];
 
-Expected:
-[
-  [
-    "*",
-    "2",
-    "*"
-  ]
-]
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #08
-Test: revealSabotage([
-  ['*', ' ', ' '],
-  [' ', ' ', ' '],
-  [' ', ' ', '*']
-])
+  it("Test #06: revealSabotage([['*', '*', '*'],['*', ' ', '*'],['*', '*', '*']])", () => {
+    const result = revealSabotage([
+      ["*", "*", "*"],
+      ["*", " ", "*"],
+      ["*", "*", "*"],
+    ]);
 
-Expected:
-[
-  [
-    "*",
-    "1",
-    " "
-  ],
-  [
-    "1",
-    "2",
-    "1"
-  ],
-  [
-    " ",
-    "1",
-    "*"
-  ]
-]
+    const expected = [
+      ["*", "*", "*"],
+      ["*", "8", "*"],
+      ["*", "*", "*"],
+    ];
 
-Actual:
-[]
-Test #09
-Test: revealSabotage([
-  ['*', ' ', ' ', ' ', ' '],
-  [' ', ' ', ' ', ' ', ' '],
-  [' ', ' ', '*', ' ', ' '],
-  [' ', ' ', ' ', ' ', ' '],
-  [' ', ' ', ' ', ' ', '*']
-])
+    expect(result).toEqual(expected);
+  });
 
-Expected:
-[
-  [
-    "*",
-    "1",
-    " ",
-    " ",
-    " "
-  ],
-  [
-    "1",
-    "2",
-    "1",
-    "1",
-    " "
-  ],
-  [
-    " ",
-    "1",
-    "*",
-    "1",
-    " "
-  ],
-  [
-    " ",
-    "1",
-    "1",
-    "2",
-    "1"
-  ],
-  [
-    " ",
-    " ",
-    " ",
-    "1",
-    "*"
-  ]
-]
+  it("Test #07: revealSabotage([['*', ' ', '*']])", () => {
+    const result = revealSabotage([["*", " ", "*"]]);
 
-Actual:
-[]
-Test #10 secret
-Test #11 secret
-Test #12 secret
-Test #13 secret
+    const expected = [["*", "2", "*"]];
 
-*/
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #08: revealSabotage([['*', ' ', ' '],[' ', ' ', ' '],[' ', ' ', '*']])", () => {
+    const result = revealSabotage([
+      ["*", " ", " "],
+      [" ", " ", " "],
+      [" ", " ", "*"],
+    ]);
+
+    const expected = [
+      ["*", "1", " "],
+      ["1", "2", "1"],
+      [" ", "1", "*"],
+    ];
+
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #09: revealSabotage([['*', ' ', ' ', ' ', ' '],[' ', ' ', ' ', ' ', ' '],[' ', ' ', '*', ' ', ' '],[' ', ' ', ' ', ' ', ' '],[' ', ' ', ' ', ' ', '*']])", () => {
+    const result = revealSabotage([
+      ["*", " ", " ", " ", " "],
+      [" ", " ", " ", " ", " "],
+      [" ", " ", "*", " ", " "],
+      [" ", " ", " ", " ", " "],
+      [" ", " ", " ", " ", "*"],
+    ]);
+
+    const expected = [
+      ["*", "1", " ", " ", " "],
+      ["1", "2", "1", "1", " "],
+      [" ", "1", "*", "1", " "],
+      [" ", "1", "1", "2", "1"],
+      [" ", " ", " ", "1", "*"],
+    ];
+
+    expect(result).toEqual(expected);
+  });
+});
