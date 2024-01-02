@@ -2,7 +2,7 @@ const optimizeIntervals = require("./challenge17");
 
 describe("Challenge #17: 🛷 Optimizing the rental", () => {
   it("Test #01: Return Type | Expected: object", () => {
-    expect(
+    expect(typeof
       optimizeIntervals([
         [2, 7],
         [3, 4],
