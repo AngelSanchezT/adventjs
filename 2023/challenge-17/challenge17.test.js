@@ -1,131 +1,102 @@
-/*
-Tests failed
-Test #01
-Test: return type
+const optimizeIntervals = require("./challenge17");
 
-Expected:
-"array"
+describe("Challenge #17: 🛷 Optimizing the rental", () => {
+  it("Test #01: Return Type | Expected: object", () => {
+    expect(
+      optimizeIntervals([
+        [2, 7],
+        [3, 4],
+        [5, 8],
+      ])
+    ).toEqual("object");
+  });
 
-Actual:
-"array"
-Test #02
-Test: optimizeIntervals([[2, 7], [3, 4], [5, 8]])
+  it("Test #02: optimizeIntervals([[2, 7], [3, 4], [5, 8]])", () => {
+    const result = optimizeIntervals([
+      [2, 7],
+      [3, 4],
+      [5, 8],
+    ]);
+    const expected = [[2, 8]];
 
-Expected:
-[
-  [
-    2,
-    8
-  ]
-]
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #03
-Test: optimizeIntervals([[3, 4], [5, 8], [2, 7]])
+  it("Test #03: optimizeIntervals([[3, 4], [5, 8], [2, 7]])", () => {
+    const result = optimizeIntervals([
+      [3, 4],
+      [5, 8],
+      [2, 7],
+    ]);
+    const expected = [[2, 8]];
 
-Expected:
-[
-  [
-    2,
-    8
-  ]
-]
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #04
-Test: optimizeIntervals([[1, 3], [2, 6], [8, 10]])
+  it("Test #04: optimizeIntervals([[1, 3], [2, 6], [8, 10]])", () => {
+    const result = optimizeIntervals([
+      [1, 3],
+      [2, 6],
+      [8, 10],
+    ]);
+    const expected = [
+      [1, 6],
+      [8, 10],
+    ];
 
-Expected:
-[
-  [
-    1,
-    6
-  ],
-  [
-    8,
-    10
-  ]
-]
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #05
-Test: optimizeIntervals([[1, 2], [3, 4], [5, 6]])
+  it("Test #05: optimizeIntervals([[1, 2], [3, 4], [5, 6]])", () => {
+    const result = optimizeIntervals([
+      [1, 2],
+      [3, 4],
+      [5, 6],
+    ]);
+    const expected = [
+      [1, 2],
+      [3, 4],
+      [5, 6],
+    ];
 
-Expected:
-[
-  [
-    1,
-    2
-  ],
-  [
-    3,
-    4
-  ],
-  [
-    5,
-    6
-  ]
-]
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #06
-Test: optimizeIntervals([[5, 7], [6, 8]])
+  it("Test #06: optimizeIntervals([[5, 7], [6, 8]])", () => {
+    const result = optimizeIntervals([
+      [5, 7],
+      [6, 8],
+    ]);
+    const expected = [[5, 8]];
 
-Expected:
-[
-  [
-    5,
-    8
-  ]
-]
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #07
-Test: optimizeIntervals([[1, 5], [6, 10], [11, 15], [16, 20]])
+  it("Test #07: optimizeIntervals([[1, 5], [6, 10], [11, 15], [16, 20]])", () => {
+    const result = optimizeIntervals([
+      [1, 5],
+      [6, 10],
+      [11, 15],
+      [16, 20],
+    ]);
+    const expected = [
+      [1, 5],
+      [6, 10],
+      [11, 15],
+      [16, 20],
+    ];
 
-Expected:
-[
-  [
-    1,
-    5
-  ],
-  [
-    6,
-    10
-  ],
-  [
-    11,
-    15
-  ],
-  [
-    16,
-    20
-  ]
-]
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #08
-Test: optimizeIntervals([[1, 15], [8, 12], [4, 7]])
+  it("Test #08: optimizeIntervals([[1, 15], [8, 12], [4, 7]])", () => {
+    const result = optimizeIntervals([
+      [1, 15],
+      [8, 12],
+      [4, 7],
+    ]);
+    const expected = [[1, 15]];
 
-Expected:
-[
-  [
-    1,
-    15
-  ]
-]
-
-Actual:
-[]
-Test #09 secret
-Test #10 secret
-Test #11 secret
-Test #12 secret
-Test #13 secret
-*/
+    expect(result).toEqual(expected);
+  });
+});
