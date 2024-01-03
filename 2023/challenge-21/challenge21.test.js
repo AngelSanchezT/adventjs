@@ -1,3 +1,11 @@
+const findBalancedSegment = require('./challenge21');
+
+describe("Challenge #21: 🪐 Binary message", () => {
+  it("Test #01: return type", () => {
+    expect(typeof findBalancedSegment([1, 1, 0, 1, 1, 0, 1, 1])).toEqual("object");
+  });
+});
+
 /*
 Test #01
 Test: return type
