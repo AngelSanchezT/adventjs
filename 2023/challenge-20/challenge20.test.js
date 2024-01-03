@@ -1,5 +1,17 @@
+const distributeGifts = require('./challenge20');
+
+describe("Challenge #20: 🏋️‍♂️ Distribute the weight",() => {
+  it("Test #01: return type", () => {
+    expect(typeof distributeGifts([
+      [4, 5, 1],
+      [6, null, 3],
+      [8, null, 4]
+    ])).toEqual("object");
+  });
+});
+
 /*
-Test #01
+
 Test #02
 Test: distributeGifts([
   [4, 5, 1],
