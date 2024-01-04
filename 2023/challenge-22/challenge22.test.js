@@ -1,28 +1,37 @@
+const compile = require("./challenge22");
+
+describe("Challenge #22: 🚂 Programming language", () => {
+  it("Test #01: return type", () => {
+    expect(typeof compile("++*-")).toEqual("number");
+  });
+
+  it("Test #02: compile('++*-')", () => {
+    const result = compile("++*-");
+    const expected = 3;
+
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #02: compile('++*-')", () => {
+    const result = compile("++*-");
+    const expected = 3;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #03: compile('++¿+?')", () => {
+    const result = compile('++¿+?');
+    const expected = 3;
+    
+    expect(result).toEqual(expected);
+  });
+});
 
 /* 
-
-Han fallado los tests
-Test #01
-Test: return type
+Test: compile('-+¿+?')
 
 Expected:
-"number"
-
-Actual:
-"number"
-Test #02
-Test: compile('++*-')
-
-Expected:
-3
-
-Actual:
 0
-Test #03
-Test: compile('++¿+?')
-
-Expected:
-3
 
 Actual:
 0
