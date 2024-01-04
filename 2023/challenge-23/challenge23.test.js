@@ -1,15 +1,36 @@
+const organizeChristmasDinner = require("./challenge23");
 
+describe("Challenge #23: 🍽️ Christmas dinner", () => {
+  it("Test #01: return type", () => {
+    const result = organizeChristmasDinner([
+      ["christmas turkey", "turkey", "sauce", "herbs"],
+      ["cake", "flour", "sugar", "egg"],
+      ["hot chocolate", "chocolate", "milk", "sugar"],
+      ["pizza", "sauce", "tomato", "cheese", "ham"],
+    ]);
+
+    expect(typeof result).toEqual("object");
+  });
+
+  it('Test #02: organizeChristmasDinner([["christmas turkey", "turkey", "sauce", "herbs"],["cake", "flour", "sugar", "egg"],["hot chocolate", "chocolate", "milk", "sugar"],["pizza", "sauce", "tomato", "cheese", "ham"]])', () => {
+    const result = organizeChristmasDinner([
+      ["christmas turkey", "turkey", "sauce", "herbs"],
+      ["cake", "flour", "sugar", "egg"],
+      ["hot chocolate", "chocolate", "milk", "sugar"],
+      ["pizza", "sauce", "tomato", "cheese", "ham"],
+    ]);
+
+    const expected = [
+      ["sauce", "christmas turkey", "pizza"],
+      ["sugar", "cake", "hot chocolate"],
+    ];
+
+    expect(result).toEqual(expected);
+  });
+});
 
 /*
-Tests failed
-Test #01
-Test: return type
 
-Expected:
-"array"
-
-Actual:
-"array"
 Test #02
 Test: organizeChristmasDinner([
         ["christmas turkey", "turkey", "sauce", "herbs"],
@@ -19,18 +40,7 @@ Test: organizeChristmasDinner([
       ])
 
 Expected:
-[
-  [
-    "sauce",
-    "christmas turkey",
-    "pizza"
-  ],
-  [
-    "sugar",
-    "cake",
-    "hot chocolate"
-  ]
-]
+
 
 Actual:
 []
