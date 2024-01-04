@@ -25,57 +25,53 @@ describe("Challenge #22: 🚂 Programming language", () => {
     
     expect(result).toEqual(expected);
   });
+
+  it("Test #04: compile('-+¿+?')", () => {
+    const result = compile('-+¿+?');
+    const expected = 0;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #05: compile('++*¿-?')", () => {
+    const result = compile('++*¿-?');
+    const expected = 0;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #06: compile('++%++<')", () => {
+    const result = compile('++%++<');
+    const expected = 6;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #07: compile('++%++<++¿*?')", () => {
+    const result = compile('++%++<++¿*?');
+    const expected = 6;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #08: compile('++¿+?¿+?¿+?')", () => {
+    const result = compile('++¿+?¿+?¿+?');
+    const expected = 5;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #09: compile('--¿+++?')", () => {
+    const result = compile('--¿+++?');
+    const expected = -2;
+    
+    expect(result).toEqual(expected);
+  });
 });
 
 /* 
-Test: compile('-+¿+?')
 
-Expected:
-0
 
-Actual:
-0
-Test #04
-Test #05
-Test: compile('++*¿-?')
-
-Expected:
-3
-
-Actual:
-0
-Test #06
-Test: compile('++%++<')
-
-Expected:
-6
-
-Actual:
-0
-Test #07
-Test: compile('++%++<++¿*?')
-
-Expected:
-16
-
-Actual:
-0
-Test #08
-Test: compile('++¿+?¿+?¿+?')
-
-Expected:
-5
-
-Actual:
-0
-Test #09
-Test: compile('--¿+++?')
-
-Expected:
--2
-
-Actual:
-0
 Test #10
 Test: compile('--¿+++?+++¿--?')
 
