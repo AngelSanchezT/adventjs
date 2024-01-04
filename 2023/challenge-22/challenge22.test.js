@@ -67,40 +67,32 @@ describe("Challenge #22: 🚂 Programming language", () => {
     
     expect(result).toEqual(expected);
   });
+
+  it("Test #10: compile('--¿+++?+++¿--?')", () => {
+    const result = compile('--¿+++?+++¿--?');
+    const expected = -1;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #11: compile('<%+¿++%++<?')", () => {
+    const result = compile('<%+¿++%++<?');
+    const expected = 7;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #12: compile('<<<<<<+<<<<<+%')", () => {
+    const result = compile('<<<<<<+<<<<<+%');
+    const expected = 2;
+    
+    expect(result).toEqual(expected);
+  });
+
+  it("Test #13: compile('<<<<<<+<<<<<+%')", () => {
+    const result = compile('<<<<<<+<<<<<+%');
+    const expected = 2;
+    
+    expect(result).toEqual(expected);
+  });
 });
-
-/* 
-
-
-Test #10
-Test: compile('--¿+++?+++¿--?')
-
-Expected:
--1
-
-Actual:
-0
-Test #11
-Test: compile('<%+¿++%++<?')
-
-Expected:
-7
-
-Actual:
-0
-Test #12
-Test: compile('<<<<<<+<<<<<+%')
-
-Expected:
-2
-
-Actual:
-0
-Test #13 secret
-Test #14 secret
-Test #15 secret
-Test #16 secret
-Test #17 secret
-
-
-*/
