@@ -1,464 +1,109 @@
-/* 
-Tests failed
-Test #01
-Test: return type
+const getStaircasePaths = require("./challenge24");
 
-Expected:
-"array"
+describe("Challenge #24: 🪜 Jump on the stairs", () => {
+  it("Test #01: return type", () => {
+    expect(typeof getStaircasePaths(4, 2)).toEqual("object");
+  });
 
-Actual:
-"array"
-Test #02
-Test: getStaircasePaths(4, 2)
+  it("Test #02: getStaircasePaths(4, 2)", () => {
+    const result = getStaircasePaths(4, 2);
+    const expected = [
+      [1, 1, 1, 1],
+      [1, 1, 2],
+      [1, 2, 1],
+      [2, 1, 1],
+      [2, 2],
+    ];
+    expect(result).toEqual(expected);
+  });
 
-Expected:
-[
-  [
-    1,
-    1,
-    1,
-    1
-  ],
-  [
-    1,
-    1,
-    2
-  ],
-  [
-    1,
-    2,
-    1
-  ],
-  [
-    2,
-    1,
-    1
-  ],
-  [
-    2,
-    2
-  ]
-]
+  it("Test #03: getStaircasePaths(0, 0)", () => {
+    const result = getStaircasePaths(0, 0);
+    const expected = [[]];
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #03
-Test: getStaircasePaths(0, 0)
+  it("Test #04: getStaircasePaths(1, 1)", () => {
+    const result = getStaircasePaths(1, 1);
+    const expected = [[1]];
+    expect(result).toEqual(expected);
+  });
 
-Expected:
-[
-  []
-]
+  it("Test #05: getStaircasePaths(7, 3)", () => {
+    const result = getStaircasePaths(7, 3);
+    const expected = [
+      [1, 1, 1, 1, 1, 1, 1],
+      [1, 1, 1, 1, 1, 2],
+      [1, 1, 1, 1, 2, 1],
+      [1, 1, 1, 1, 3],
+      [1, 1, 1, 2, 1, 1],
+      [1, 1, 1, 2, 2],
+      [1, 1, 1, 3, 1],
+      [1, 1, 2, 1, 1, 1],
+      [1, 1, 2, 1, 2],
+      [1, 1, 2, 2, 1],
+      [1, 1, 2, 3],
+      [1, 1, 3, 1, 1],
+      [1, 1, 3, 2],
+      [1, 2, 1, 1, 1, 1],
+      [1, 2, 1, 1, 2],
+      [1, 2, 1, 2, 1],
+      [1, 2, 1, 3],
+      [1, 2, 2, 1, 1],
+      [1, 2, 2, 2],
+      [1, 2, 3, 1],
+      [1, 3, 1, 1, 1],
+      [1, 3, 1, 2],
+      [1, 3, 2, 1],
+      [1, 3, 3],
+      [2, 1, 1, 1, 1, 1],
+      [2, 1, 1, 1, 2],
+      [2, 1, 1, 2, 1],
+      [2, 1, 1, 3],
+      [2, 1, 2, 1, 1],
+      [2, 1, 2, 2],
+      [2, 1, 3, 1],
+      [2, 2, 1, 1, 1],
+      [2, 2, 1, 2],
+      [2, 2, 2, 1],
+      [2, 2, 3],
+      [2, 3, 1, 1],
+      [2, 3, 2],
+      [3, 1, 1, 1, 1],
+      [3, 1, 1, 2],
+      [3, 1, 2, 1],
+      [3, 1, 3],
+      [3, 2, 1, 1],
+      [3, 2, 2],
+      [3, 3, 1],
+    ];
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #04
-Test: getStaircasePaths(1, 1)
+  it("Test #06: getStaircasePaths(3, 3)", () => {
+    const result = getStaircasePaths(3, 3);
+    const expected = [[1, 1, 1], [1, 2], [2, 1], [3]];
+    expect(result).toEqual(expected);
+  });
 
-Expected:
-[
-  [
-    1
-  ]
-]
+  it("Test #07: getStaircasePaths(2, 1)", () => {
+    const result = getStaircasePaths(2, 1);
+    const expected = [[1, 1]];
+    expect(result).toEqual(expected);
+  });
 
-Actual:
-[]
-Test #05
-Test: getStaircasePaths(7, 3)
-
-Expected:
-[
-  [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
-  ],
-  [
-    1,
-    1,
-    1,
-    1,
-    1,
-    2
-  ],
-  [
-    1,
-    1,
-    1,
-    1,
-    2,
-    1
-  ],
-  [
-    1,
-    1,
-    1,
-    1,
-    3
-  ],
-  [
-    1,
-    1,
-    1,
-    2,
-    1,
-    1
-  ],
-  [
-    1,
-    1,
-    1,
-    2,
-    2
-  ],
-  [
-    1,
-    1,
-    1,
-    3,
-    1
-  ],
-  [
-    1,
-    1,
-    2,
-    1,
-    1,
-    1
-  ],
-  [
-    1,
-    1,
-    2,
-    1,
-    2
-  ],
-  [
-    1,
-    1,
-    2,
-    2,
-    1
-  ],
-  [
-    1,
-    1,
-    2,
-    3
-  ],
-  [
-    1,
-    1,
-    3,
-    1,
-    1
-  ],
-  [
-    1,
-    1,
-    3,
-    2
-  ],
-  [
-    1,
-    2,
-    1,
-    1,
-    1,
-    1
-  ],
-  [
-    1,
-    2,
-    1,
-    1,
-    2
-  ],
-  [
-    1,
-    2,
-    1,
-    2,
-    1
-  ],
-  [
-    1,
-    2,
-    1,
-    3
-  ],
-  [
-    1,
-    2,
-    2,
-    1,
-    1
-  ],
-  [
-    1,
-    2,
-    2,
-    2
-  ],
-  [
-    1,
-    2,
-    3,
-    1
-  ],
-  [
-    1,
-    3,
-    1,
-    1,
-    1
-  ],
-  [
-    1,
-    3,
-    1,
-    2
-  ],
-  [
-    1,
-    3,
-    2,
-    1
-  ],
-  [
-    1,
-    3,
-    3
-  ],
-  [
-    2,
-    1,
-    1,
-    1,
-    1,
-    1
-  ],
-  [
-    2,
-    1,
-    1,
-    1,
-    2
-  ],
-  [
-    2,
-    1,
-    1,
-    2,
-    1
-  ],
-  [
-    2,
-    1,
-    1,
-    3
-  ],
-  [
-    2,
-    1,
-    2,
-    1,
-    1
-  ],
-  [
-    2,
-    1,
-    2,
-    2
-  ],
-  [
-    2,
-    1,
-    3,
-    1
-  ],
-  [
-    2,
-    2,
-    1,
-    1,
-    1
-  ],
-  [
-    2,
-    2,
-    1,
-    2
-  ],
-  [
-    2,
-    2,
-    2,
-    1
-  ],
-  [
-    2,
-    2,
-    3
-  ],
-  [
-    2,
-    3,
-    1,
-    1
-  ],
-  [
-    2,
-    3,
-    2
-  ],
-  [
-    3,
-    1,
-    1,
-    1,
-    1
-  ],
-  [
-    3,
-    1,
-    1,
-    2
-  ],
-  [
-    3,
-    1,
-    2,
-    1
-  ],
-  [
-    3,
-    1,
-    3
-  ],
-  [
-    3,
-    2,
-    1,
-    1
-  ],
-  [
-    3,
-    2,
-    2
-  ],
-  [
-    3,
-    3,
-    1
-  ]
-]
-
-Actual:
-[]
-Test #06
-Test: getStaircasePaths(3, 3)
-
-Expected:
-[
-  [
-    1,
-    1,
-    1
-  ],
-  [
-    1,
-    2
-  ],
-  [
-    2,
-    1
-  ],
-  [
-    3
-  ]
-]
-
-Actual:
-[]
-Test #07
-Test: getStaircasePaths(2, 1)
-
-Expected:
-[
-  [
-    1,
-    1
-  ]
-]
-
-Actual:
-[]
-Test #08
-Test: getStaircasePaths(5, 2)
-
-Expected:
-[
-  [
-    1,
-    1,
-    1,
-    1,
-    1
-  ],
-  [
-    1,
-    1,
-    1,
-    2
-  ],
-  [
-    1,
-    1,
-    2,
-    1
-  ],
-  [
-    1,
-    2,
-    1,
-    1
-  ],
-  [
-    1,
-    2,
-    2
-  ],
-  [
-    2,
-    1,
-    1,
-    1
-  ],
-  [
-    2,
-    1,
-    2
-  ],
-  [
-    2,
-    2,
-    1
-  ]
-]
-
-Actual:
-[]
-Test #09 secret
-Test #10 secret
-Test #11 secret
-Test #12 secret
-Test #13 secret
-
-
-*/
+  it("Test #08: getStaircasePaths(5, 2)", () => {
+    const result = getStaircasePaths(5, 2);
+    const expected = [
+      [1, 1, 1, 1, 1],
+      [1, 1, 1, 2],
+      [1, 1, 2, 1],
+      [1, 2, 1, 1],
+      [1, 2, 2],
+      [2, 1, 1, 1],
+      [2, 1, 2],
+      [2, 2, 1],
+    ];
+    expect(result).toEqual(expected);
+  });
+});
