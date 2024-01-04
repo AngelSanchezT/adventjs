@@ -1,4 +1,20 @@
+const travelDistance = require('./challenge25');
 
+describe("Challenge #25: 🗺️ Calculating distances", () => {
+    it("Test #01: return type", () => {
+        expect(typeof travelDistance(
+            `.....1....
+            ..S.......
+            ..........
+            ....3.....
+            ......2...`
+            )).toEqual("number");
+    });
+
+    
+
+
+});
 /*
 Tests failed
 Test #01
