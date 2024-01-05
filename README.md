@@ -33,7 +33,7 @@ The programming challenges:
 | 10  | [🎄 Create your own Christmas tree](./2023/challenge-10) | [![Español](./assets/flag_es.png)](./2023/challenge-10/README.es.md) | Easy | [Solution](./2023/challenge-10/challenge10.js) | 180 |
 | 11  | [📖 The studious elves](./2023/challenge-11) | [![Español](./assets/flag_es.png)](./2023/challenge-11/README.es.md) | Medium | [Solution](./2023/challenge-11/challenge11.js) | 30 |
 | 12  | [📸 Is it a valid copy?](./2023/challenge-12) | [![Español](./assets/flag_es.png)](./2023/challenge-12/README.es.md) | Medium | [Solution](./2023/challenge-12/challenge12.js) | 50 |
-| 13  | [⌚️ Calculating the time](./2023/challenge-13) | [![Español](./assets/flag_es.png)](./2023/challenge-13/README.es.md) | Medium | [Solution](./2023/challenge-13/challenge13.js) | 160 |
+| 13  | [⌚️ Calculating the time](./2023/challenge-13) | [![Español](./assets/flag_es.png)](./2023/challenge-13/README.es.md) | Easy | [Solution](./2023/challenge-13/challenge13.js) | 160 |
 
 ## 🎯 Challenges 2022
 
