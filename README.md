@@ -35,6 +35,7 @@ The programming challenges:
 | 12  | [📸 Is it a valid copy?](./2023/challenge-12) | [![Español](./assets/flag_es.png)](./2023/challenge-12/README.es.md) | Medium | [Solution](./2023/challenge-12/challenge12.js) | 50 |
 | 13  | [⌚️ Calculating the time](./2023/challenge-13) | [![Español](./assets/flag_es.png)](./2023/challenge-13/README.es.md) | Easy | [Solution](./2023/challenge-13/challenge13.js) | 160 |
 | 14  | [🚨 Avoid the alarm](./2023/challenge-14) | [![Español](./assets/flag_es.png)](./2023/challenge-14/README.es.md) | Medium | [Solution](./2023/challenge-14/challenge14.js) | 260 |
+| 15  | [↔️ Autonomous robot](./2023/challenge-15) | [![Español](./assets/flag_es.png)](./2023/challenge-15/README.es.md) | Medium | [Solution](./2023/challenge-15/challenge15.js) |  |
 
 ## 🎯 Challenges 2022
 
