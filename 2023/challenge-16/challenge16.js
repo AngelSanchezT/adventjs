@@ -1,25 +1,26 @@
-function transformTree(array, index) {
-    if (index >= array.length || array[index] === null) {
-      return null;
+const transformTree = function(array) {
+  if (!Array.isArray(array) || array.length === 0) {
+    return null;
+  }
+
+  const root = { value: array[0], left: null, right: null };
+  const queue = [root];
+
+  for (let i = 1; i < array.length; i += 2) {
+    const currentNode = queue.shift();
+
+    if (array[i] !== null) {
+      currentNode.left = { value: array[i], left: null, right: null };
+      queue.push(currentNode.left);
     }
-  
-    const node = {
-      value: array[index],
-      left: transformTree(array, 2 * index + 1),
-      right: transformTree(array, 2 * index + 2),
-    };
-  
-    return node;
+
+    if (i + 1 < array.length && array[i + 1] !== null) {
+      currentNode.right = { value: array[i + 1], left: null, right: null };
+      queue.push(currentNode.right);
+    }
   }
-  
-  // Función principal para inicializar el proceso con el índice de la raíz (0)
-  function initializeTransformTree(array) {
-    return transformTree(array, 0);
-  }
-  
-  // Ejemplo de uso:
-  const treeArray = [3, 1, 0, 8, 12, null, 1];
-  const treeObject = initializeTransformTree(treeArray);
-  console.log(treeObject);
+
+  return root;
+};
   
 module.exports = transformTree;
