@@ -12,11 +12,14 @@ function autonomousDrive(store, movements) {
         }
     }
 
-    // console.log(startRow, startCol);
-
-    // Función para verificar si una posición está dentro de los límites y es un camino libre
+    // Función para verificar si una posición está dentro
+    // de los límites y es un camino libre
     const isValidMove = (row, col) => {
-        return row >= 0 && row < store.length && col >= 0 && col < store[row].length && store[row][col] !== '*';
+        return row >= 0
+            && row < store.length
+            && col >= 0
+            && col < store[row].length
+            && store[row][col] !== '*';
     };
 
     // Función para realizar los movimientos
@@ -38,7 +41,8 @@ function autonomousDrive(store, movements) {
                 row++;
                 break;
         }
-        return isValidMove(row, col) ? [row, col] : [tempRow, tempCol];  // Si el movimiento no es válido, retrocede una posición
+        return isValidMove(row, col) ? [row, col] : [tempRow, tempCol];
+        // Si el movimiento no es válido, retrocede una posición
     };
 
     // Aplicar los movimientos
@@ -55,11 +59,8 @@ function autonomousDrive(store, movements) {
 
     }
 
-
-
-
     // Actualizar la posición final en el almacén
-    if (startRow !== currentRow && startCol !== currentCol) {
+    if (startRow !== currentRow || startCol !== currentCol) {
         const resultStore = store.map((row, rowIndex) => {
             return row.split('').map((cell, colIndex) => {
                 if (startRow === rowIndex && startCol === colIndex) {
@@ -76,7 +77,8 @@ function autonomousDrive(store, movements) {
         return resultStore;
     }
 
-    return store;
+    return store
+
 }
 
 module.exports = autonomousDrive;
