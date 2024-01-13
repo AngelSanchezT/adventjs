@@ -39,7 +39,8 @@ The programming challenges:
 | 16  | [❌ Friday deployment](./2023/challenge-16) | [![Español](./assets/flag_es.png)](./2023/challenge-16/README.es.md) | Easy | [Solution](./2023/challenge-16/challenge16.js) | PENDING* |
 | 17  | [🛷 Optimizing the rental](./2023/challenge-17) | [![Español](./assets/flag_es.png)](./2023/challenge-17/README.es.md) | Easy | [Solution](./2023/challenge-17/challenge17.js) | 110* |
 | 18  | [🔢 The digital clock](./2023/challenge-18) | [![Español](./assets/flag_es.png)](./2023/challenge-18/README.es.md) | Hard | [Solution](./2023/challenge-18/challenge18.js) | PENDING* |
-| 19  | [💣 Face the sabotage](./2023/challenge-19) | [![Español](./assets/flag_es.png)](./2023/challenge-19/README.es.md) | Hard | [Solution](./2023/challenge-19/challenge19.js) | 25* |
+| 19  | [💣 Face the sabotage](./2023/challenge-19) | [![Español](./assets/flag_es.png)](./2023/challenge-19/README.es.md) | Medium | [Solution](./2023/challenge-19/challenge19.js) | 25* |
+| 20  | [🏋️‍♂️ Distribute the weight](./2023/challenge-20) | [![Español](./assets/flag_es.png)](./2023/challenge-20/README.es.md) | Hard | [Solution](./2023/challenge-20/challenge20.js) | 25* |
 
 `*` For refactoring the code
 
