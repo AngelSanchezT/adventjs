@@ -2,7 +2,7 @@ const revealSabotage = require("./challenge19");
 
 describe("Challenge #19: 💣 Face the sabotage", () => {
   it("Test #01: Return Type | Expected: array", () => {
-    expect(
+    expect(typeof
       revealSabotage([
         ["*", " ", " ", " "],
         [" ", " ", "*", " "],
