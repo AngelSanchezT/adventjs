@@ -2,7 +2,7 @@ function autonomousDrive(store, movements) {
     let row = store.findIndex(line => line.includes('!'))
   let col = store[row].indexOf('!')
 
-  function placeRobot(robot: string) {
+  function placeRobot(robot) {
     const line = store[row]
     store[row] = line.slice(0, col) + robot + line.slice(col + 1)
   }
