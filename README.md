@@ -41,6 +41,7 @@ The programming challenges:
 | 18  | [🔢 The digital clock](./2023/challenge-18) | [![Español](./assets/flag_es.png)](./2023/challenge-18/README.es.md) | Hard | [Solution](./2023/challenge-18/challenge18.js) | PENDING* |
 | 19  | [💣 Face the sabotage](./2023/challenge-19) | [![Español](./assets/flag_es.png)](./2023/challenge-19/README.es.md) | Medium | [Solution](./2023/challenge-19/challenge19.js) | 25* |
 | 20  | [🏋️‍♂️ Distribute the weight](./2023/challenge-20) | [![Español](./assets/flag_es.png)](./2023/challenge-20/README.es.md) | Hard | [Solution](./2023/challenge-20/challenge20.js) | 25* |
+| 21  | [🪐 Binary message](./2023/challenge-21) | [![Español](./assets/flag_es.png)](./2023/challenge-21/README.es.md) | Medium | [Solution](./2023/challenge-21/challenge21.js) | PENDING* |
 
 `*` For refactoring the code
 
