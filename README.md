@@ -68,3 +68,15 @@ The programming challenges:
 - [ ] Crear los README de Cada Reto del 2022
 - [ ] Crear los README de Cada Reto del 2021
 - [ ] Explicar como se puede ejecutar cada reto. o general.
+- [ ] Migrar los test a vitest.
+
+<!-- 
+Repositorios de Ejemplos: 
+
+https://github.com/victormhp/adventJS-midudev
+https://github.com/johnsi15/adventjs
+
+Repositorio con listado de repositorios con soluciones a los ejercicios.
+https://github.com/borjapazr/awesome-adventjs
+-->
+
