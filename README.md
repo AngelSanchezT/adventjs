@@ -44,6 +44,7 @@ The programming challenges:
 | 22  | [🚂 Programming language](./2023/challenge-22) | [![Español](./assets/flag_es.png)](./2023/challenge-22/README.es.md) | Easy | [Solution](./2023/challenge-22/challenge22.js) | PENDING* |
 | 23  | [🍽️ Christmas dinner](./2023/challenge-23) | [![Español](./assets/flag_es.png)](./2023/challenge-23/README.es.md) | Easy | [Solution](./2023/challenge-23/challenge23.js) | 40* |
 | 24  | [🪜 Jump on the stairs](./2023/challenge-24) | [![Español](./assets/flag_es.png)](./2023/challenge-24/README.es.md) | Easy | [Solution](./2023/challenge-24/challenge24.js) | 40* |
+| 25 | [🗺️ Calculating distances](./2023/challenge-25) | [![Español](./assets/flag_es.png)](./2023/challenge-25/README.es.md) | Easy | [Solution](./2023/challenge-25/challenge25.js) | PENDING* |
 
 `*` For refactoring the code
 
