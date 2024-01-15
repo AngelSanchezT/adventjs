@@ -43,6 +43,7 @@ The programming challenges:
 | 21  | [🪐 Binary message](./2023/challenge-21) | [![Español](./assets/flag_es.png)](./2023/challenge-21/README.es.md) | Medium | [Solution](./2023/challenge-21/challenge21.js) | PENDING* |
 | 22  | [🚂 Programming language](./2023/challenge-22) | [![Español](./assets/flag_es.png)](./2023/challenge-22/README.es.md) | Easy | [Solution](./2023/challenge-22/challenge22.js) | PENDING* |
 | 23  | [🍽️ Christmas dinner](./2023/challenge-23) | [![Español](./assets/flag_es.png)](./2023/challenge-23/README.es.md) | Easy | [Solution](./2023/challenge-23/challenge23.js) | 40* |
+| 24  | [🪜 Jump on the stairs](./2023/challenge-24) | [![Español](./assets/flag_es.png)](./2023/challenge-24/README.es.md) | Easy | [Solution](./2023/challenge-24/challenge24.js) | 40* |
 
 `*` For refactoring the code
 
