@@ -55,6 +55,7 @@ The programming challenges:
 |  #  |                               Challenge                            | Difficulty |                  Solution                  |
 | :-: | :----------------------------------------------------------------: | :--------: | :----------------------------------------: |
 | 01  | [¡Automatizando envolver regalos de navidad!](./2022/challenge-01) | Easy       | [Solution](./2022/challenge-01/challenge01.js) |
+| 02  | [Nadie quiere hacer horas extra](./2022/challenge-02) | Easy       | [Solution](./2022/challenge-02/challenge02.js) |
 
 ## 🎯 Challenges 2021
 
