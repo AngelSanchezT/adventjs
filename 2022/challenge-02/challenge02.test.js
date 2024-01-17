@@ -1,6 +1,7 @@
 const countHours = require('./challenge02');
 
 describe("Reto #2: Nadie quiere hacer horas extra", () => {
+    
     it("Test #01: return type", () => {
         expect(typeof countHours(2023, ['01/06', '04/01', '12/25'])).toEqual("number");
     });
@@ -32,4 +33,5 @@ describe("Reto #2: Nadie quiere hacer horas extra", () => {
 
         expect(result).toEqual(expected);
     });
+
 });
