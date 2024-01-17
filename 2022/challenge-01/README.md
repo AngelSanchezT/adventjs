@@ -3,6 +3,7 @@
 $${\color{lightgreen}Fácil}$$
 
 > _Visita: [Reto #1 ¡Automatizando envolver regalos de navidad&excl;](https://2022.adventjs.dev/es/challenges/2022/1)_
+
 Este año los elfos han comprado una máquina que envuelve regalos. Pero… ¡no viene
 programada! Necesitamos crear un algoritmo que le ayude en la tarea.
 
