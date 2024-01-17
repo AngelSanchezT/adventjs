@@ -50,14 +50,20 @@ The programming challenges:
 
 ## 🎯 Challenges 2022
 
+<div align="center">
+    <img alt="position" src="./assets/points_2022.jpg">
+</div>
+
 The programming challenges:
 
-|  #  |                               Challenge                            | Difficulty |                  Solution                  |
-| :-: | :----------------------------------------------------------------: | :--------: | :----------------------------------------: |
-| 01  | [¡Automatizando envolver regalos de navidad!](./2022/challenge-01) | Easy       | [Solution](./2022/challenge-01/challenge01.js) |
-| 02  | [Nadie quiere hacer horas extra](./2022/challenge-02) | Easy       | [Solution](./2022/challenge-02/challenge02.js) |
-| 03  | [¿Cuántas cajas de regalos puede llevar Papá Noel?](./2022/challenge-03) | Easy       | [Solution](./2022/challenge-03/challenge03.js) |
-| 04  | [Una caja dentro de otra caja y otra...](./2022/challenge-04) | Easy       | [Solution](./2022/challenge-04/challenge04.js) |
+|  #  |                               Challenge                            | Difficulty |                  Solution                  |   Points   |
+| :-: | :----------------------------------------------------------------: | :--------: | :----------------------------------------: | :--------: |
+| 01  | [¡Automatizando envolver regalos de navidad!](./2022/challenge-01) | Easy       | [Solution](./2022/challenge-01/challenge01.js) | 121 |
+| 02  | [Nadie quiere hacer horas extra](./2022/challenge-02) | Easy       | [Solution](./2022/challenge-02/challenge02.js) | PENDING |
+| 03  | [¿Cuántas cajas de regalos puede llevar Papá Noel?](./2022/challenge-03) | Easy       | [Solution](./2022/challenge-03/challenge03.js) | PENDING |
+| 04  | [Una caja dentro de otra caja y otra...](./2022/challenge-04) | Easy       | [Solution](./2022/challenge-04/challenge04.js) | PENDING |
+
+`*` For refactoring the code
 
 ## 🎯 Challenges 2021
 
@@ -67,6 +73,8 @@ The programming challenges:
 | :-: | :--------------------------------------------------------------------: | :--------: | :----------------------------------------: |
 | 01  | [Contando ovejas para domir!](./2021/challenge-01)                     | Easy       | [Solution](./2021/challenge-01/challenge01.js) |
 | 02  | [¡Ayuda al elfo a listar los regalos!](./2021/challenge-02)                     | Easy       | [Solution](./2021/challenge-02/challenge02.js) |
+
+`*` For refactoring the code
 
 ## TODO
 
