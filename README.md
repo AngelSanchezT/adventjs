@@ -83,6 +83,7 @@ The programming challenges:
 - [ ] Crear los README de Cada Reto del 2021
 - [ ] Explicar como se puede ejecutar cada reto. o general.
 - [ ] Migrar los test a vitest.
+- [ ] Mejorar la navegación en los README, para volver al inicio, ir a la solución.
 
 <!-- 
 Repositorios de Ejemplos: 
