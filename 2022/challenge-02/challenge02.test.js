@@ -1,47 +1,35 @@
-/* 
-Han fallado los tests
-Test #01
-Test: return type
+const countHours = require('./challenge02');
 
-Expected:
-"number"
+describe("Reto #2: Nadie quiere hacer horas extra", () => {
+    it("Test #01: return type", () => {
+        expect(typeof countHours(2023, ['01/06', '04/01', '12/25'])).toEqual("number");
+    });
 
-Actual:
-"number"
-Test #02
-Test: countHours(2023, ['01/06', '04/01', '12/25'])
+    it("Test #02: countHours(2023, ['01/06', '04/01', '12/25'])", () => {
+        const result = countHours(2023, ['01/06', '04/01', '12/25']);
+        const expected = 4;
 
-Expected:
-4
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-0
-Test #03
-Test: countHours(2022, ['01/06', '04/01', '12/25'])
+    it("Test #03: countHours(2022, ['01/06', '04/01', '12/25'])", () => {
+        const result = countHours(2022, ['01/06', '04/01', '12/25']);
+        const expected = 4;
 
-Expected:
-4
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-0
-Test #04
-Test: countHours(1985, ['01/01', '01/06', '02/02', '02/17', '02/28', '06/03', '12/06', '12/25'])
+    it("Test #04: countHours(1985, ['01/01', '01/06', '02/02', '02/17', '02/28', '06/03', '12/06', '12/25'])", () => {
+        const result = countHours(1985, ['01/01', '01/06', '02/02', '02/17', '02/28', '06/03', '12/06', '12/25']);
+        const expected = 10;
 
-Expected:
-10
+        expect(result).toEqual(expected);
+    });
 
-Actual:
-0
-Test #05
-Test: countHours(2000, ['01/01'])
+    it("Test #05: countHours(2000, ['01/01'])", () => {
+        const result = countHours(2000, ['01/01']);
+        const expected = 0;
 
-Expected:
-0
-
-Actual:
-0
-Test #06 (secret 🔒)
-Test #07 (secret 🔒)
-
-
-*/
+        expect(result).toEqual(expected);
+    });
+});
