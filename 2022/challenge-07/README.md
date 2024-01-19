@@ -2,6 +2,8 @@
 
 $${\color{lightgreen}Fácil}$$
 
+> _Visita:[Reto #7](https://2022.adventjs.dev/es/challenges/2022/7)_
+
 En los almacenes de Papá Noel están haciendo inventario. Hay tres almacenes
 (que se representa cada uno como un Array). En cada almacén hay regalos.
 
