@@ -1,0 +1,3 @@
+function createCube(size) {
+    return ''
+}
