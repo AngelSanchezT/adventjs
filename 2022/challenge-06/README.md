@@ -1,5 +1,7 @@
 # Reto #6: Creando adornos navideños
 
+$${\color{lightgreen}Fácil}$$
+
 > _Visita: [Reto #6](https://2022.adventjs.dev/es/challenges/2022/6)_
 
 Una pareja de entusiastas de la navidad ha creado una empresa de adornos
