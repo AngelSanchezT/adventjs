@@ -84,7 +84,7 @@ The programming challenges:
 - [ ] Explicar como se puede ejecutar cada reto. o general.
 - [ ] Migrar los test a vitest.
 - [ ] Mejorar la navegación en los README, para volver al inicio, ir a la solución.
-
+- [ ] Utilizar una imagen para ejemplificar un ejercicio sea Facil, Medio y Dificil.
 <!-- 
 Repositorios de Ejemplos: 
 
