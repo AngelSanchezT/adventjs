@@ -58,10 +58,19 @@ The programming challenges:
 
 |  #  |                               Challenge                            | Difficulty |                  Solution                  |   Points   |
 | :-: | :----------------------------------------------------------------: | :--------: | :----------------------------------------: | :--------: |
-| 01  | [¡Automatizando envolver regalos de navidad!](./2022/challenge-01) | Easy       | [Solution](./2022/challenge-01/challenge01.js) | 121 |
-| 02  | [Nadie quiere hacer horas extra](./2022/challenge-02) | Easy       | [Solution](./2022/challenge-02/challenge02.js) | 91 |
-| 03  | [¿Cuántas cajas de regalos puede llevar Papá Noel?](./2022/challenge-03) | Easy       | [Solution](./2022/challenge-03/challenge03.js) | PENDING |
-| 04  | [Una caja dentro de otra caja y otra...](./2022/challenge-04) | Easy       | [Solution](./2022/challenge-04/challenge04.js) | PENDING |
+| 01  | [¡Automatizando envolver regalos de navidad!](./2022/challenge-01) | Facíl       | [Solución](./2022/challenge-01/challenge01.js) | 121 |
+| 02  | [Nadie quiere hacer horas extra](./2022/challenge-02) | Facíl       | [Solución](./2022/challenge-02/challenge02.js) | 91 |
+| 03  | [¿Cuántas cajas de regalos puede llevar Papá Noel?](./2022/challenge-03) | Facíl       | [Solución](./2022/challenge-03/challenge03.js) | PENDING |
+| 04  | [Una caja dentro de otra caja y otra...](./2022/challenge-04) | Facíl       | [Solución](./2022/challenge-04/challenge04.js) | PENDING |
+| 05  | [Optimizando viajes de Santa](./2022/challenge-05) | Difícil      | [Solución](./2022/challenge-05/challenge05.js) | PENDING |
+| 06  | [Creando adornos navideños](./2022/challenge-06) | Medio      | [Solución](./2022/challenge-06/challenge06.js) | PENDING |
+| 07  | [Haciendo inventario de regalos](./2022/challenge-07) | Medio      | [Solución](./2022/challenge-07/challenge07.js) | PENDING |
+| 08  | [¡Necesitamos un mecánico!](./2022/challenge-08) | Medio      | [Solución](./2022/challenge-08/challenge08.js) | PENDING |
+| 09  | [Las locas luces de Navidad](./2022/challenge-09) | Facíl      | [Solución](./2022/challenge-09/challenge09.js) | PENDING |
+| 10  | [El salto del trineo de Papá Noel](./2022/challenge-10) | Medio      | [Solución](./2022/challenge-10/challenge10.js) | PENDING |
+| 11  | [Papá Noel es Scrum Master](./2022/challenge-11) | Difícil      | [Solución](./2022/challenge-11/challenge11.js) | PENDING |
+| 12  | [Trineos eléctricos, ¡guau!](./2022/challenge-12) | Medio      | [Solución](./2022/challenge-12/challenge12.js) | PENDING |
+| 13  | [Backup de los archivos de Papá Noel](./2022/challenge-13) | Medio      | [Solución](./2022/challenge-13/challenge13.js) | PENDING |
 
 `*` For refactoring the code
 
@@ -78,7 +87,7 @@ The programming challenges:
 
 ## TODO
 
-- [ ] Crear los README de Cada Reto en Ingles y Español del 2023
+- [X] Crear los README de Cada Reto en Ingles y Español del 2023
 - [ ] Crear los README de Cada Reto del 2022
 - [ ] Crear los README de Cada Reto del 2021
 - [ ] Explicar como se puede ejecutar cada reto. o general.
