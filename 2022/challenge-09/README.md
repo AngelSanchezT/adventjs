@@ -1,5 +1,9 @@
 # Reto #9: Las locas luces de Navidad
 
+$${\color{lightgreen}Fácil}$$
+
+> _Visit: [Reto #9](https://2022.adventjs.dev/es/challenges/2022/9)_
+
 Una empresa que fabrica luces de Navidad nos ha pedido que le echemos una mano.
 
 Tienen unas tiras led que son como un Array. Cada posición es un led y puede ser

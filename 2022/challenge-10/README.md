@@ -1,5 +1,7 @@
 # Reto #10: El salto del trineo de Papá Noel
 
+$${\color{orange}Medio}$$
+
 > _Visit: [Reto #10](https://2022.adventjs.dev/es/challenges/2022/10)_
 
 Crea un programa que compruebe que el trineo de Santa Claus hace una

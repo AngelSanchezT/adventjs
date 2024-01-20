@@ -1,5 +1,7 @@
 # Reto #8: ¡Necesitamos un mecánico&excl;
 
+$${\color{orange}Medio}$$
+
 > _Visit: [Reto #8](https://2022.adventjs.dev/es/challenges/2022/8)_
 
 Se han estropeado algunos trineos eléctricos y los elfos están buscando piezas
