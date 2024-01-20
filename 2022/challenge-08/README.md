@@ -1,7 +1,6 @@
-# Reto #8: ¡Necesitamos un mecánico!
+# Reto #8: ¡Necesitamos un mecánico&excl;
 
 > _Visit: [Reto #8](https://2022.adventjs.dev/es/challenges/2022/8)_
-
 
 Se han estropeado algunos trineos eléctricos y los elfos están buscando piezas
 de repuesto para arreglarlos, pero no tienen claro si las piezas que tienen sirven.
