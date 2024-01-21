@@ -9,6 +9,7 @@ describe("Reto #5: Optimizando viajes de Santa", () => {
         const maxCities = 3
         const result = getMaxGifts(giftsCities, maxGifts, maxCities); // 20
         expect(typeof result).toEqual("number");
+
     });
 
     it("Test #02: getMaxGifts([12, 3, 11, 5, 7], 20, 3)", () => {

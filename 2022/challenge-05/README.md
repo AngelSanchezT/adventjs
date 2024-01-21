@@ -1,5 +1,9 @@
 # Reto #5: Optimizando viajes de Santa
 
+$${\color{red}Difícil}$$
+
+> _Visita: [Reto #5](https://2022.adventjs.dev/es/challenges/2022/5)_
+
 Para no cansar a los renos, Papá Noel quiere dejar el máximo número de regalos
 haciendo el menor número posible de viajes.
 
