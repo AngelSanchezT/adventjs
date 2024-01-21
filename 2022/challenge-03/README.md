@@ -1,5 +1,9 @@
 # Reto #3: ¿Cuántas cajas de regalos puede llevar Papá Noel?
 
+$${\color{lightgreen}Fácil}$$
+
+> _[Reto #3](https://2022.adventjs.dev/es/challenges/2022/3)_
+
 Tienes una caja de regalos de Navidad que Santa Claus quiere entregar a los niños.
 **Cada regalo está representado por una cadena**. Santa Claus tiene un trineo que
 puede llevar un **peso limitado**, y cada regalo dentro de la caja tiene un peso
