@@ -1,5 +1,9 @@
 # Reto #4: Una caja dentro de otra caja y otra...
 
+$${\color{orange}Medio}$$
+
+> _Visita: [Reto #4](https://2022.adventjs.dev/es/challenges/2022/4)_
+
 Santa Claus necesita hacer una revisión de sus cajas de regalos para asegurarse
 de que puede empaquetarlas todas en su trineo. Cuenta con una serie de **cajas de**
 **diferentes tamaños, que se caracterizan por su longitud, anchura y altura.**
