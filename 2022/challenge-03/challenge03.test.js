@@ -1,6 +1,7 @@
 const distributeGifts = require('./challenge03');
 
 describe("Reto #3: ¿Cuántas cajas de regalos puede llevar Papá Noel?", () => {
+
     it("Test #01: return type", () => {
 
         const packOfGifts = ["book", "doll", "ball"];
@@ -15,7 +16,7 @@ describe("Reto #3: ¿Cuántas cajas de regalos puede llevar Papá Noel?", () => 
         const packOfGifts = ["book", "doll", "ball"];
         const reindeers = ["dasher", "dancer"];
         const result = distributeGifts(packOfGifts, reindeers);
-        const expected = 1;
+        const expected = 2;
 
         expect(result).toEqual(expected);
 
@@ -56,5 +57,4 @@ describe("Reto #3: ¿Cuántas cajas de regalos puede llevar Papá Noel?", () => 
         expect(result).toEqual(expected);
 
     });
-
 });

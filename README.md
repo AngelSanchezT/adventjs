@@ -60,7 +60,7 @@ The programming challenges:
 | :-: | :----------------------------------------------------------------: | :--------: | :----------------------------------------: | :--------: |
 | 01  | [¡Automatizando envolver regalos de navidad!](./2022/challenge-01) | Facíl       | [Solución](./2022/challenge-01/challenge01.js) | 121 |
 | 02  | [Nadie quiere hacer horas extra](./2022/challenge-02) | Facíl       | [Solución](./2022/challenge-02/challenge02.js) | 91 |
-| 03  | [¿Cuántas cajas de regalos puede llevar Papá Noel?](./2022/challenge-03) | Facíl       | [Solución](./2022/challenge-03/challenge03.js) | PENDING |
+| 03  | [¿Cuántas cajas de regalos puede llevar Papá Noel?](./2022/challenge-03) | Facíl       | [Solución](./2022/challenge-03/challenge03.js) | 125 |
 | 04  | [Una caja dentro de otra caja y otra...](./2022/challenge-04) | Facíl       | [Solución](./2022/challenge-04/challenge04.js) | PENDING |
 | 05  | [Optimizando viajes de Santa](./2022/challenge-05) | Difícil      | [Solución](./2022/challenge-05/challenge05.js) | PENDING |
 | 06  | [Creando adornos navideños](./2022/challenge-06) | Medio      | [Solución](./2022/challenge-06/challenge06.js) | PENDING |
