@@ -1,54 +1,60 @@
-/*
-Han fallado los tests
-Test #01
-Test: return type
+const distributeGifts = require('./challenge03');
 
-Expected:
-"number"
+describe("Reto #3: ¿Cuántas cajas de regalos puede llevar Papá Noel?", () => {
+    it("Test #01: return type", () => {
 
-Actual:
-"number"
-Test #02
-Test: distributeGifts(packOfGifts, reindeers)
+        const packOfGifts = ["book", "doll", "ball"];
+        const reindeers = ["dasher", "dancer"];
 
-Expected:
-2
+        expect(typeof distributeGifts(packOfGifts, reindeers)).toEqual("number");
 
-Actual:
-0
-Test #03
-Test: distributeGifts(['a', 'b', 'c'], ['d', 'e'])
+    });
 
-Expected:
-1
+    it("Test #02: distributeGifts(packOfGifts, reindeers)", () => {
 
-Actual:
-0
-Test #04
-Test: it should return 0 if reindeers can't carry any pack:
-distributeGifts(['videogames', 'console'], ['midu'])
+        const packOfGifts = ["book", "doll", "ball"];
+        const reindeers = ["dasher", "dancer"];
+        const result = distributeGifts(packOfGifts, reindeers);
+        const expected = 1;
 
-Expected:
-0
+        expect(result).toEqual(expected);
 
-Actual:
-0
-Test #05
-Test: distributeGifts(['game', 'videoconsole', 'computer'], ['midudev', 'pheralb', 'codingwithdani', 'carlosble', 'blasco', 'facundocapua', 'madeval', 'memxd'])
+    });
 
-Expected:
-5
+    it("Test #03: distributeGifts(['a', 'b', 'c'], ['d', 'e'])", () => {
 
-Actual:
-0
-Test #06
-Test: distributeGifts(['music'], ['midudev', 'pheralb', 'codingwithdani', 'carlosble', 'blasco', 'facundocapua', 'madeval', 'memxd'])
+        const result = distributeGifts(['a', 'b', 'c'], ['d', 'e']);
+        const expected = 1;
 
-Expected:
-26
+        expect(result).toEqual(expected);
 
-Actual:
-0
-Test #07 (secret 🔒)
-Test #08 (secret 🔒)
-*/
+    });
+
+    it("Test #04: distributeGifts(['videogames', 'console'], ['midu'])", () => {
+
+        const result = distributeGifts(['videogames', 'console'], ['midu']);
+        const expected = 0;
+
+        expect(result).toEqual(expected);
+
+    });
+
+    it("Test #05: distributeGifts(['game', 'videoconsole', 'computer'], ['midudev', 'pheralb', 'codingwithdani', 'carlosble', 'blasco', 'facundocapua', 'madeval', 'memxd'])", () => {
+        
+        const result = distributeGifts(['game', 'videoconsole', 'computer'], ['midudev', 'pheralb', 'codingwithdani', 'carlosble', 'blasco', 'facundocapua', 'madeval', 'memxd']);
+        const expected = 5;
+
+        expect(result).toEqual(expected);
+
+    });
+
+    it("Test #06: distributeGifts(['music'], ['midudev', 'pheralb', 'codingwithdani', 'carlosble', 'blasco', 'facundocapua', 'madeval', 'memxd'])", () => {
+        
+        const result = distributeGifts(['music'], ['midudev', 'pheralb', 'codingwithdani', 'carlosble', 'blasco', 'facundocapua', 'madeval', 'memxd']);
+        const expected = 26;
+
+        expect(result).toEqual(expected);
+
+    });
+
+});
