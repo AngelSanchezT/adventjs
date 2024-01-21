@@ -1,77 +1,80 @@
-/*
-Han fallado los tests
-Test #01
-Test: return type
+const fitsInOneBox = require('./challenge04');
 
-Expected:
-"boolean"
+describe("Reto #4: Una caja dentro de otra caja y otra...", () => {
+  
+  it("Test #01: return type", () => {
+    const result = fitsInOneBox([
+      { l: 1, w: 1, h: 1 },
+      { l: 2, w: 2, h: 2 }
+    ]) // true
+    expect(typeof result).toEqual("boolean");
+  });
 
-Actual:
-"boolean"
-Test #02
-Test: fitsInOneBox([
-  { l: 1, w: 1, h: 10 },
-  { l: 3, w: 3, h: 12 },
-  { l: 2, w: 2, h: 1 },
-])
+  it("Test #02: fitsInOneBox", () => {
 
-Expected:
-false
+    const result = fitsInOneBox([
+      { l: 1, w: 1, h: 10 },
+      { l: 3, w: 3, h: 12 },
+      { l: 2, w: 2, h: 1 },
+    ])
 
-Actual:
-false
-Test #03
-Test: fitsInOneBox([
-  { l: 1, w: 1, h: 1 },
-  { l: 2, w: 2, h: 2 }
-])
+    const expected = false;
 
-Expected:
-true
+    expect(result).toEqual(expected);
 
-Actual:
-false
-Test #04
-Test: fitsInOneBox([
-  { l: 1, w: 1, h: 1 },
-  { l: 2, w: 2, h: 2 },
-  { l: 3, w: 1, h: 3 }
-])
+  });
 
-Expected:
-false
+  it("Test #03: fitsInOneBox", () => {
 
-Actual:
-false
-Test #05
-Test: fitsInOneBox([
-        { l: 1, w: 1, h: 1 },
-        { l: 2, w: 2, h: 2 },
-        { l: 2, w: 10, h: 2}
-      ])
+    const result = fitsInOneBox([
+      { l: 1, w: 1, h: 1 },
+      { l: 2, w: 2, h: 2 }
+    ]);
 
-Expected:
-false
+    const expected = true;
 
-Actual:
-false
-Test #06
-Test: fitsInOneBox([
-        { l: 1, w: 1, h: 1 },
-        { l: 3, w: 3, h: 3 },
-        { l: 2, w: 2, h: 2 }
-      ])
+    expect(result).toEqual(expected);
 
-Expected:
-true
+  });
 
-Actual:
-false
-Test #07 (secret 🔒)
-Test #08 (secret 🔒)
-Test #09 (secret 🔒)
-Test #10 (secret 🔒)
+  it("Test #04: fitsInOneBox", () => {
+    const result = fitsInOneBox([
+      { l: 1, w: 1, h: 1 },
+      { l: 2, w: 2, h: 2 },
+      { l: 3, w: 1, h: 3 }
+    ]);
 
+    const expected = false;
 
+    expect(result).toEqual(expected);
 
-*/
+  });
+
+  it("Test #05: fitsInOneBox", () => {
+
+    const result = fitsInOneBox([
+      { l: 1, w: 1, h: 1 },
+      { l: 2, w: 2, h: 2 },
+      { l: 2, w: 10, h: 2 }
+    ]);
+
+    const expected = false;
+
+    expect(result).toEqual(expected);
+
+  });
+
+  it("Test #06: fitsInOneBox", () => {
+    const result = fitsInOneBox([
+      { l: 1, w: 1, h: 1 },
+      { l: 3, w: 3, h: 3 },
+      { l: 2, w: 2, h: 2 }
+    ]);
+
+    const expected = true;
+
+    expect(result).toEqual(expected);
+
+  });
+
+});
