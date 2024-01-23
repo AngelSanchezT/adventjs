@@ -2,7 +2,7 @@
 
 > _Visita: [Reto #14](https://2022.adventjs.dev/es/challenges/2022/14)_
 
-$${\color{lightgreen}Fácil}$$
+$${\color{orange}Medio}$$
 
 Santa Claus está construyendo pirámides de hielo en el Polo Norte para entrenar
 a sus renos.
