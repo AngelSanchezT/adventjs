@@ -2,4 +2,4 @@ function selectSleigh(distance, sleighs) {
     return ''
 }
 
-module.export = selectSleigh;
+module.exports = selectSleigh;

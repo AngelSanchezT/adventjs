@@ -42,6 +42,7 @@
     "test:2022:9": "jest -i 2022/challenge-09/challenge09.test.js",
     "test:2022:10": "jest -i 2022/challenge-10/challenge10.test.js",
     "test:2022:11": "jest -i 2022/challenge-11/challenge11.test.js",
+    "test:2022:12": "jest -i 2022/challenge-12/challenge12.test.js",
     "test:2021:1": "jest -i 2021/challenge-01/challenge01.test.js",
     "test:2021:2": "jest -i 2021/challenge-02/challenge02.test.js"
   },
