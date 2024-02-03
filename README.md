@@ -63,7 +63,7 @@ The programming challenges:
 | 03  | [¿Cuántas cajas de regalos puede llevar Papá Noel?](./2022/challenge-03) | Facíl       | [Solución](./2022/challenge-03/challenge03.js) | 125 |
 | 04  | [Una caja dentro de otra caja y otra...](./2022/challenge-04) | Medio       | [Solución](./2022/challenge-04/challenge04.js) | 97 |
 | 05  | [Optimizando viajes de Santa](./2022/challenge-05) | Difícil      | [Solución](./2022/challenge-05/challenge05.js) | 184 |
-| 06  | [Creando adornos navideños](./2022/challenge-06) | Medio      | [Solución](./2022/challenge-06/challenge06.js) | PENDING |
+| 06  | [Creando adornos navideños](./2022/challenge-06) | Medio      | [Solución](./2022/challenge-06/challenge06.js) | 160 |
 | 07  | [Haciendo inventario de regalos](./2022/challenge-07) | Medio      | [Solución](./2022/challenge-07/challenge07.js) | PENDING |
 | 08  | [¡Necesitamos un mecánico!](./2022/challenge-08) | Medio      | [Solución](./2022/challenge-08/challenge08.js) | PENDING |
 | 09  | [Las locas luces de Navidad](./2022/challenge-09) | Facíl      | [Solución](./2022/challenge-09/challenge09.js) | PENDING |
