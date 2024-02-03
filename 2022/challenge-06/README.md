@@ -10,9 +10,9 @@ navideños. El primer adorno que quieren fabricar es un cubo que se pone en los 
 El problema es que tienen que programar la máquina y no saben cómo hacerlo. Nos
 han pedido ayuda para lograrlo.
 
-Para crear los cubos se le pasa un número con el tamaño deseado al programa y
-este devuelve un string con el diseño de ese tamaño. Por ejemplo, si le pasamos
-un 3, el programa debe devolver un cubo de 3x3x3:
+Para **crear los cubos** se le pasa un **número con el tamaño deseado** al
+programa y este devuelve un `string` con el diseño de ese tamaño. Por ejemplo,
+si le pasamos un 3, el programa debe devolver un cubo de 3x3x3:
 
 ```javascript
 const cube = createCube(3)
