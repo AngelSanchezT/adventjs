@@ -39,7 +39,7 @@ B P R P
 Escribe un programa que reciba el string B P R P y devuelva un array con la
 representación del árbol.
 
-```
+```javascript
 
 decorateTree('B P R P')
 // [

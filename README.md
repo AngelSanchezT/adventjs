@@ -71,6 +71,17 @@ The programming challenges:
 | 11  | [Papá Noel es Scrum Master](./2022/challenge-11) | Difícil      | [Solución](./2022/challenge-11/challenge11.js) | PENDING |
 | 12  | [Trineos eléctricos, ¡guau!](./2022/challenge-12) | Medio      | [Solución](./2022/challenge-12/challenge12.js) | PENDING |
 | 13  | [Backup de los archivos de Papá Noel](./2022/challenge-13) | Medio      | [Solución](./2022/challenge-13/challenge13.js) | PENDING |
+| 14  | [El mejor camino](./2022/challenge-14) | Medio      | [Solución](./2022/challenge-14/challenge14.js) | PENDING |
+| 15  | [Decorando el árbol de Navidad](./2022/challenge-15) | Medio      | [Solución](./2022/challenge-15/challenge15.js) | PENDING |
+| 16  | [Arreglando las cartas de Papá Noel](./2022/challenge-16) | Difícil      | [Solución](./2022/challenge-16/challenge16.js) | PENDING |
+| 17  | [Llevando los regalos en sacos](./2022/challenge-17) | Difícil      | [Solución](./2022/challenge-17/challenge17.js) | PENDING |
+| 18  | [¡Nos quedamos sin tinta!](./2022/challenge-18) | Difícil      | [Solución](./2022/challenge-18/challenge18.js) | PENDING |
+| 19  | [Ordenando los regalos](./2022/challenge-19) | Facíl      | [Solución](./2022/challenge-19/challenge19.js) | PENDING |
+| 20  | [Más viajes retadores](./2022/challenge-20) | Difícil      | [Solución](./2022/challenge-20/challenge20.js) | PENDING |
+| 21  | [Creando la tabla de regalos](./2022/challenge-21) | Medio      | [Solución](./2022/challenge-21/challenge21.js) | PENDING |
+| 22  | [La iluminación en sintonía](./2022/challenge-22) | Facíl      | [Solución](./2022/challenge-22/challenge22.js) | PENDING |
+| 23  | [Compilador de Papá Noel](./2022/challenge-23) | Difícil      | [Solución](./2022/challenge-23/challenge23.js) | PENDING |
+| 24  | [El último reto es un laberinto](./2022/challenge-24) | Difícil      | [Solución](./2022/challenge-24/challenge24.js) | PENDING |
 
 `*` For refactoring the code
 
