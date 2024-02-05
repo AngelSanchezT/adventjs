@@ -93,6 +93,7 @@ The programming challenges:
 | :-: | :--------------------------------------------------------------------: | :--------: | :----------------------------------------: |
 | 01  | [Contando ovejas para domir!](./2021/challenge-01)                     | Facíl      | [Solution](./2021/challenge-01/challenge01.js) |
 | 02  | [¡Ayuda al elfo a listar los regalos!](./2021/challenge-02)            | Facíl      | [Solution](./2021/challenge-02/challenge02.js) |
+| 03  | [El Grinch quiere fastidiar la Navidad](./2021/challenge-03)           | Facíl      | [Solution](./2021/challenge-03/challenge03.js) |
 
 `*` For refactoring the code
 
