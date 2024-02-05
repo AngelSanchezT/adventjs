@@ -54,7 +54,7 @@ describe("Reto #03: El Grinch quiere fastidiar la Navidad", () => {
 
     it("Test #10: isValid letter ')bici( casa play' ",() => {
         const letter = ")bici( casa play";
-        expect(isValid(letter)).toEqual(true);
+        expect(isValid(letter)).toEqual(false);
     });
 
 });
