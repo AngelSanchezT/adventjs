@@ -100,7 +100,7 @@ The programming challenges:
 ## TODO
 
 - [X] Crear los README de Cada Reto en Ingles y Español del 2023
-- [ ] Crear los README de Cada Reto del 2022
+- [X] Crear los README de Cada Reto del 2022
 - [ ] Crear los README de Cada Reto del 2021
 - [ ] Explicar como se puede ejecutar cada reto. o general.
 - [ ] Migrar los test a vitest.
