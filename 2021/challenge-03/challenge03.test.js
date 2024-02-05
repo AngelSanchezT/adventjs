@@ -1,6 +1,6 @@
 const isValid = require('./challenge03');
 
-describe("El Grinch quiere fastidiar la Navidad", () => {
+describe("Reto #03: El Grinch quiere fastidiar la Navidad", () => {
 
     it("Test #01: return type", () => {
         const letter = "bici coche (bal\xf3n) bici coche peluche";
