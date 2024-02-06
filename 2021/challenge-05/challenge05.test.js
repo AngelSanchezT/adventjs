@@ -51,8 +51,5 @@ describe("Reto #05: Contando los días para los regalos", () => {
     it("Test #10: Deber\xedas devolver los d\xedas en negativo para fechas futuras... \ud83d\udd2e", () => {
         expect(daysToXmas(i)).toEqual(-8);
     });
-
-
     
-
 });
