@@ -46,4 +46,4 @@ daysToXmas(date4) // -7
 ```
 
 Por cierto, la fecha de referencia para saber si es 25 de diciembre
-es Dec 25, 2021.
+es `Dec 25, 2021`.
